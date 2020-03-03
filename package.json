@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "http://met-cs634-spring2020-team-b.github.io/apex-agility",
+  "homepage": "https://met-cs634-spring2020-team-b.github.io/apex-agility",
   "eslintConfig": {
     "extends": "react-app"
   },
