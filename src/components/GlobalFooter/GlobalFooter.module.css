@@ -3,7 +3,8 @@
     left: 0;
     bottom: 0;
     width: 100vw;
-    background-color: lightblue;
+    background-color: azure;
+    border-top: 1px solid gray;
 }
 
 .footerInner {
