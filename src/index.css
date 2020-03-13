@@ -18,3 +18,7 @@ body, div, p {
 a {
   text-decoration: none;
 }
+
+a:visited {
+  color: blue;
+}
