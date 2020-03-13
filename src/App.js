@@ -8,23 +8,27 @@ import ContactUs from './containers/ContactUs';
 import Home from './containers/Home';
 
 import Navigation from './components/Navigation'
+import GlobalFooter from './components/GlobalFooter'
 
 const App = () => (
-  <main>
-    <Navigation />
+  <>
+    <main>
+      <Navigation />
 
-    <hr />
+      <hr />
 
-    <Route path={routes.ABOUT}>
-      <About />
-    </Route>
-    <Route path={routes.CONTACT_US}>
-      <ContactUs />
-    </Route>
-    <Route exact path={routes.HOME}>
-      <Home />
-    </Route>
-  </main>
+      <Route path={routes.ABOUT}>
+        <About />
+      </Route>
+      <Route path={routes.CONTACT_US}>
+        <ContactUs />
+      </Route>
+      <Route exact path={routes.HOME}>
+        <Home />
+      </Route>
+    </main>
+    <GlobalFooter />
+  </>
 );
 
 export default App;

@@ -1,0 +1,71 @@
+.footerOuter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background-color: lightblue;
+}
+
+.footerInner {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footerInner h3 {
+    color: blueviolet;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 30vh;
+    border: 1px solid black;
+    margin: 0 5vh;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 30vw;
+}
+
+.links a {
+    font-family: sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 2em;
+}
+
+.links a:hover,
+.links a:focus {
+    text-decoration: underline;
+}
+
+.links span {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 30vw;
+}
