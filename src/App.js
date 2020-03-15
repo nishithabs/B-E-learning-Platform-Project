@@ -19,30 +19,14 @@ const App = () => (
   <>
     <GlobalHeader />
     <main>
-      <Route path={routes.ABOUT}>
-        <About />
-      </Route>
-      <Route path={routes.ASSESSMENT}>
-        <Assessment />
-      </Route>
-      <Route path={routes.COACHING}>
-        <Coaching />
-      </Route>
-      <Route path={routes.CONTACT_US}>
-        <ContactUs />
-      </Route>
-      <Route path={routes.COURSES}>
-        <CourseMain />
-      </Route>
-      <Route exact path={routes.HOME}>
-        <Home />
-      </Route>
-      <Route path={routes.RESOURCES}>
-        <Resources />
-      </Route>
-      <Route path={routes.TERMS_AND_CONDITIONS}>
-        <TermsAndConditions />
-      </Route>
+      <Route path={routes.ABOUT} component={About} />
+      <Route path={routes.ASSESSMENT} component={Assessment} />
+      <Route path={routes.COACHING} component={Coaching} />
+      <Route path={routes.CONTACT_US} component={ContactUs} />
+      <Route path={routes.COURSES} component={CourseMain} />
+      <Route exact path={routes.HOME} component={Home} />
+      <Route path={routes.RESOURCES} component={Resources} />
+      <Route path={routes.TERMS_AND_CONDITIONS} component={TermsAndConditions} />
     </main>
     <GlobalFooter />
   </>
