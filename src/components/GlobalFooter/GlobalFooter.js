@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import routes from '../../constants/routes';
 
@@ -15,10 +16,10 @@ const GlobalFooter = () => {
         </div>
         <div className={styles.links}>
           <h3>Related Links</h3>
-          <a href={routes.ABOUT}>About Us</a>
-          <a href={routes.CONTACT_US}>Contact Us</a>
-          <a href={routes.BECOME_A_TRAINER}>Become a Trainer</a>
-          <a href={routes.TERMS_AND_CONDITIONS}>Terms and Conditions</a>
+          <Link to={routes.ABOUT}>About Us</Link>
+          <Link to={routes.CONTACT_US}>Contact Us</Link>
+          <Link to={routes.BECOME_A_TRAINER}>Become a Trainer</Link>
+          <Link to={routes.TERMS_AND_CONDITIONS}>Terms and Conditions</Link>
           <span>Apex Agility &copy; {copyright}</span>
         </div>
         <div className={styles.social}>

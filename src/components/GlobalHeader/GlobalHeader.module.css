@@ -1,0 +1,36 @@
+.headerOuter {
+    left: 0;
+    top: 0;
+    width: 100vw;
+    background-color: azure;
+    border-bottom: 1px solid gray;
+}
+
+.headerInner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vh;
+    height: 15vh;
+    border: 1px solid black;
+}
+
+.button {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1;
+    color: blue;
+    background-color: lightblue;
+    border-radius: 10px;
+    width: 20vh;
+    height: 5vh;
+}
