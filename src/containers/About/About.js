@@ -41,11 +41,16 @@ const About = () => {
                     <p>
                         Apex can help you succeed in three ways:
                         <ul>
-                            <li>Training & Certification</li>
-                            <li> Coaching</li>
-                            <li> Assessment</li>
+                            <li>Training & Certification: our 1-2 day training courses are specifically designed to
+                                prepare you for the Agile certification exams from SAFe, Scrum.org, and Scrum Alliance.
+                                You can train with confidence due to our Apex guarantee: if you do not succeed in
+                                passing the certification, you may re-enroll in the training at no additional cost.</li>
+                            <li> Coaching: Apex offers customized coaching from our expert staff.  We can coach your
+                                team, your executives, and your organization.   Please contact us for more details.</li>
+                            <li> Assessment: Apex uniquely offers a suite of detailed assessments to determine your
+                                specific organization’s capabilities and needs.  See our different assessment offerings
+                                here (click link to Assessment page) for more details.</li>
                         </ul>
-                        Training & Certification
                     </p>
 
                 </div>
