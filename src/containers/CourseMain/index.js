@@ -1,5 +1,3 @@
-import React from 'react';
-
-const CourseMain = () => <section>Courses</section>;
+import CourseMain from './CourseMain'
 
 export default CourseMain;
