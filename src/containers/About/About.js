@@ -5,9 +5,11 @@ import styles from './About.module.css';
 const About = () => {
     return (
         <section>
-            <div>
-                <h1>About Us</h1>
-                <div>
+            <div className={styles.aboutContainer}>
+                <div className={styles.top}>
+                    <h1>About Us</h1>
+                </div>
+                <div className={styles.contentBox}>
                     <h3>Who We Are</h3>
                     <p>
                         Apex is a boutique consulting firm with decades of software development experience.  We grew up in the
@@ -20,11 +22,9 @@ const About = () => {
                         Raj Heda, President and CEO of Apex, is a leading author, teacher and world-renowned industry
                         consultant.  All our internal experts are master’s degree students at Boston University’s Metropolitan
                         College.
-                    </p>
-                    <div>
                         <ul>
                             <li>
-                                Devin Dumais, Andras Palfi, and Shales Tamrakar are Apex’s three lead development consultants.
+                                Devin Dumais, Andras Palfi, and Shailesh Tamrakar are Apex’s three lead development consultants.
                             </li>
                             <li>
                                 Keith Gutfreund leads Apex’s Product Owner and Content Writer teams.  Keith studied
@@ -34,9 +34,7 @@ const About = () => {
                             <li>Po-Han (John) Huang and Daniela lead Apex’s Quality certification team.</li>
                             <li>Mingyang Zu is lead consultant for Apex’s Business Analayst certification team.</li>
                         </ul>
-                    </div>
-                </div>
-                <div>
+                    </p>
                     <h3>What We Do</h3>
                     <p>
                         Apex can help you succeed in three ways:
@@ -52,10 +50,8 @@ const About = () => {
                                 here (click link to Assessment page) for more details.</li>
                         </ul>
                     </p>
-
                 </div>
             </div>
-
         </section>
     )
 };
