@@ -1,5 +1,3 @@
-import React from 'react';
-
-const About = () => <section>About</section>;
+import About from "./About";
 
 export default About;
