@@ -29,7 +29,8 @@
 .top h1 {
     font-family: sans-serif;
     font-size: 22px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    color: rgb(17, 113, 192);
 }
 
 .contentBox {
@@ -38,7 +39,7 @@
     flex-direction: column;
     margin: auto;
     padding: 10px;
-    border: 1px solid black;
+    border: 2px solid rgb(17, 113, 192);;
     align-items: center;
     justify-content: center;
 }
@@ -46,9 +47,11 @@
 .contentBox h3 {
     font-family: sans-serif;
     font-size: 18px;
+    color: rgb(17, 113, 192);
 }
 
 .contentBox p {
     font-family: sans-serif;
     font-size: 16px;
+    color: #747372;
 }
