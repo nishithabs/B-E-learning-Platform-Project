@@ -16,7 +16,7 @@ const GlobalHeader = () => {
       </div>
       <Navigation />
       <Button>
-        <Link to={routes.COURSES}>View Course</Link>
+        <Link to={routes.COURSES}>View Courses</Link>
       </Button>
     </header>
   )
