@@ -1,0 +1,158 @@
+.assessmentContainer {
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /**background-color: lightgrey; */
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.top p {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+
+.contactUsBtn {
+    padding: 0;
+}
+
+/**
+.contactUsBtn a {
+    padding: 10px 25px; 
+    margin: 0 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: rgb(17, 113, 192);
+    background-color: rgb(173, 216, 230);
+    border: 2px solid  rgb(60, 114, 158);
+    border-radius: 10px;
+}
+
+
+.contactUsBtn a:hover {
+    background-color: rgba(60, 114, 158, 0.6);
+}
+**/
+
+h1 {
+    font-size: 22px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: rgb(17, 113, 192);
+    margin: 0;
+
+}
+
+h2 {
+    font-size: 16px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: rgb(17, 113, 192);
+    margin: 0;
+
+}
+
+p {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #696867;;
+
+    text-align: justify;
+    line-height: 1.5;
+    padding: 0 10px 5px 10px;
+
+}
+
+.bottom {
+    width: 75%;
+    padding: 0;
+    margin: auto;
+    
+}
+
+.bFirst {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    padding: 30px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.bFirst .contactUsBtn {
+   margin: 0;
+   padding: 30px 0;
+}
+
+.bFirst .dummy .contactUsBtn {
+    visibility: hidden;
+}
+
+.bSecond {
+   
+    margin: 0 20px 10px 20px;
+}
+
+.bSecond h1 {
+    padding: 10px;
+    font-weight: normal;
+}
+
+.bThird {
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+.bThird h1 {
+    padding: 10px;
+    font-weight: normal;
+}
+
+.bThird div {
+    background-color: white;
+    margin: 15px 0;
+}
+
+.bThird h2 {
+    padding: 10px 10px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.bFourth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+
+}
+
+
+
+
+
+

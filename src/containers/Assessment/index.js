@@ -1,5 +1,3 @@
-import React from 'react';
-
-const Assessment = () => <section>Assessment</section>;
+import Assessment from './Assessment';
 
 export default Assessment;
