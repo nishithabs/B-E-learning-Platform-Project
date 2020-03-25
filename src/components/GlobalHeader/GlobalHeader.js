@@ -1,27 +1,27 @@
 import React from 'react';
+import Headroom from 'react-headroom';
 import { Link } from 'react-router-dom';
 
 import routes from '../../constants/routes';
+
+import Button from '../Button';
 
 import Navigation from './Navigation';
 import styles from './GlobalHeader.module.css';
 
 const GlobalHeader = () => {
   return (
-    <header className={styles.headerOuter}>
-      <div className={styles.headerInner}>
+    <Headroom>
+      <header className={styles.header}>
         <div className={styles.logo}>
           Logo
         </div>
-        <button
-          className={styles.button}
-          type='button'
-        >
+        <Navigation />
+        <Button>
           <Link to={routes.COURSES}>View Courses</Link>
-        </button>
-      </div>
-      <Navigation />
-    </header>
+        </Button>
+      </header>
+    </Headroom>
   )
 };
 

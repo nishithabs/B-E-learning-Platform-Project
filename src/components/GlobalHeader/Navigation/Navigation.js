@@ -7,18 +7,30 @@ import styles from './Navigation.module.css';
 
 const Navigation = () => {
   return (
-    <nav className={styles.navigation}>
-      <Link to={routes.ASSESSMENT}>Assessment</Link>
-      <div className={styles.dropdown}>
-        <div className={styles.dropdownElement}>Training</div>
-        <div className={styles.dropdownContent}>
-          <Link to={'#'}>Public</Link>
-          <Link to={'#'}>Corporate</Link>
-          <Link to={routes.COURSES}>Upcoming Courses</Link>
-        </div>
-      </div>
-      <Link to={routes.COACHING}>Coaching</Link>
-      <Link to={routes.RESOURCES}>Resources</Link>
+    <nav>
+      <ul>
+        <li>
+          <Link to={routes.ASSESSMENT}>Assessment</Link>
+        </li>
+        <li className={styles.dropdown}>
+          <div className={styles.dropdownElement}>Training</div>
+          <div className={styles.dropdownContent}>
+            <Link to={'#'}>Public</Link>
+            <Link to={'#'}>Corporate</Link>
+            <Link to={routes.COURSES}>Upcoming Courses</Link>
+          </div>
+        </li>
+        <li>
+          <Link to={routes.COACHING}>Coaching</Link>
+        </li>
+        <li className={styles.dropdown}>
+          <div className={styles.dropdownElement}>Resources</div>
+          <div className={styles.dropdownContent}>
+            <Link to={routes.ABOUT}>About Us</Link>
+            <Link to={routes.CONTACT_US}>Contact Us</Link>
+          </div>
+        </li>
+      </ul>
     </nav>
   )
 };
