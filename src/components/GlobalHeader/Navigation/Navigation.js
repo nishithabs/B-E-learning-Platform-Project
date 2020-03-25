@@ -23,8 +23,12 @@ const Navigation = () => {
         <li>
           <Link to={routes.COACHING}>Coaching</Link>
         </li>
-        <li>
-          <Link to={routes.RESOURCES}>Resources</Link>
+        <li className={styles.dropdown}>
+          <div className={styles.dropdownElement}>Resources</div>
+          <div className={styles.dropdownContent}>
+            <Link to={routes.ABOUT}>About Us</Link>
+            <Link to={routes.CONTACT_US}>Contact Us</Link>
+          </div>
         </li>
       </ul>
     </nav>

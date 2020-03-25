@@ -1,4 +1,5 @@
 import React from 'react';
+import Headroom from 'react-headroom';
 import { Link } from 'react-router-dom';
 
 import routes from '../../constants/routes';
@@ -10,15 +11,17 @@ import styles from './GlobalHeader.module.css';
 
 const GlobalHeader = () => {
   return (
-    <header className={styles.header}>
-      <div className={styles.logo}>
-        Logo
-      </div>
-      <Navigation />
-      <Button>
-        <Link to={routes.COURSES}>View Courses</Link>
-      </Button>
-    </header>
+    <Headroom>
+      <header className={styles.header}>
+        <div className={styles.logo}>
+          Logo
+        </div>
+        <Navigation />
+        <Button>
+          <Link to={routes.COURSES}>View Courses</Link>
+        </Button>
+      </header>
+    </Headroom>
   )
 };
 
