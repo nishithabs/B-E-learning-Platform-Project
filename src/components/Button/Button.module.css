@@ -1,0 +1,13 @@
+.button {
+    font-family: sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1;
+    color: blue;
+    background-color: lightblue;
+    border-radius: 10px;
+    width: 20vh;
+    height: 5vh;
+    cursor: pointer;
+}
