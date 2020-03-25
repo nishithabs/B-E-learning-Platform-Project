@@ -45,6 +45,7 @@
     text-transform: uppercase;
     text-decoration: none;
     line-height: 2em;
+    color: rgb(17, 113, 192);
 }
 
 .links a:hover,
