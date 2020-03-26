@@ -14,7 +14,7 @@ const StayConnectedSection = () => {
       <h3>Stay Connected With Us...</h3>
       <span>Receive Information on Upcoming Workshops and Insights</span>
       <form>
-        <div className={styles.inputs}>
+        <div className={styles.stay_connected_inputs}>
           <Input
             id="stay-connected-name"
             placeholder="Name"
@@ -25,7 +25,7 @@ const StayConnectedSection = () => {
             type="email"
           />
         </div>
-        <div className={styles.permission}>
+        <div className={styles.stay_connected_permission}>
           <Input
             id="stay-connected-terms-checkbox"
             type="checkbox"
