@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import styles from './CourseMain.module.css';
-import Content from './Content'
+import Content from './Content';
+import Button from '../../components/Button';
 
 const CourseMain = () => {
     return(
@@ -27,7 +28,9 @@ const CourseMain = () => {
                             </ul>
                         </div>
                         <div className={styles.registerBtn}>
-                            <Link>Register</Link>
+                            <Button>
+                                <Link>Register</Link>
+                            </Button>
                          </div>
                     </div>
                    
@@ -125,7 +128,9 @@ const CourseMain = () => {
 
                 <div className={styles.bottom}>
                     <div className={styles.registerBtn}>
-                        <Link>Register</Link>
+                        <Button>
+                            <Link>Register</Link>
+                        </Button>
                     </div>
                 </div>
 

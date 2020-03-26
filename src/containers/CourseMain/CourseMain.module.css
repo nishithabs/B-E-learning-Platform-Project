@@ -80,20 +80,20 @@
 .courseTitleInner li {
     font-size: 16px;
     font-family: sans-serif;
-    /**color: rgb(60, 114, 158);*/
-    color: blue;
+   
     color: rgb(17, 113, 192);
     
     text-transform: uppercase;
 
     margin-top: 0;
-    margin-left: 20px;
+    margin-left: 5px;
     padding-bottom: 14px;
 }
 
 .registerBtn {
     padding: 9px 0;
 }
+/**
 .registerBtn a {
     font-size: 18px;
     font-family: sans-serif;
@@ -112,6 +112,7 @@
 .registerBtn a:hover {
     background-color: rgba(60, 114, 158, 0.6);
 }
+*/
 
 
 .middle {
@@ -142,8 +143,7 @@
     margin-left: 10px;
     font-size: 22px;
     font-family:sans-serif;
-    /**color: rgb(60, 114, 158);*/
-    color: blue;
+    
     color: rgb(17, 113, 192);
 
     text-align: left;
@@ -153,9 +153,8 @@
     font-size: 14px;
     font-family: sans-serif;
     text-align: justify;
-    /**color: rgb(60, 114, 158);*/
-    color: blue;
-    color: rgb(17, 113, 192);
+    
+    color: #696867;
 
     line-height: 1.5;;
 
@@ -204,7 +203,7 @@
     width: 40%;
     margin: 10px 20px;
 
-    border-left: 2px solid  rgb(17, 113, 192);;
+    border-left: 2px solid  #696867;
 }
 
 .midRightTop {
