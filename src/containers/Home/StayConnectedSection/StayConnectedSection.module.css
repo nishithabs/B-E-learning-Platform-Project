@@ -1,0 +1,46 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: rgb(17, 113, 192);
+    background-color: lightgrey;
+    padding: 25px 0;
+}
+
+section h3 {
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+section span {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+section form {
+    width: 37%;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inputs input {
+    height: 30px;
+    font-size: 20px;
+}
+
+.permission {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 14px;
+    padding: 25px 0;
+}

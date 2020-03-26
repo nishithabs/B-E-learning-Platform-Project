@@ -40,10 +40,6 @@ h1 {
     font-size: 20px;
 }
 
-.message .contact_us_form input {
-    height: 120px;
-}
-
 .button {
     display: flex;
     justify-content: flex-end;
