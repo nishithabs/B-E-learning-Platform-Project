@@ -71,3 +71,17 @@
     margin-bottom: auto;
     width: 30vw;
 }
+
+.socialMediaIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.socialMediaIcons img {
+    height: auto;
+    width: auto;
+    max-height: 25px;
+    max-width: 25px;
+}

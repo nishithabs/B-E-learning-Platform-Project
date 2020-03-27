@@ -5,6 +5,11 @@ import routes from '../../constants/routes';
 
 import styles from './GlobalFooter.module.css';
 
+import facebook from './facebook.png'
+import linkedIn from './linkedin.png'
+import twitter from './twitter.png'
+import youtube from './youtube.png'
+
 const copyright = new Date().getFullYear();
 
 const GlobalFooter = () => {
@@ -24,6 +29,12 @@ const GlobalFooter = () => {
         </div>
         <div className={styles.social}>
           <h3>Follow Us</h3>
+          <div className={styles.socialMediaIcons}>
+            <img src={facebook} alt = "facebook-icon"/>
+            <img src={linkedIn} alt = "linkedIn-icon"/>
+            <img src={twitter} alt = "twitter-icon"/>
+            <img src={youtube} alt = "youtube-icon"/>
+          </div>
         </div>
       </div>
     </footer>
