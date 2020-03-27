@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom';
 
 import styles from './ServiceTile.module.css';
 
-const ServiceTile = ({ copy, src, title, url }) => {
+const ServiceTile = ({ children, src, title, url }) => {
+
   return (
     <div className={styles.services_tile}>
       <h4>{title}</h4>
       <img src={src} alt={title} />
-      <div>{copy}</div>
+      <p>{children}</p>
       <span>
         <Link to={url}>Learn More</Link>
       </span>
