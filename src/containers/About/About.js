@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from './About.module.css';
-import bannerImage from './about_banner.png'
+import bannerImage from '../../assets/about_banner.png'
 
 const About = () => {
     return (
