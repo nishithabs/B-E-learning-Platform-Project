@@ -30,10 +30,10 @@ const GlobalFooter = () => {
         <div className={styles.social}>
           <h3>Follow Us</h3>
           <div className={styles.socialMediaIcons}>
-            <img src={facebook} alt = "facebook-icon"/>
-            <img src={linkedIn} alt = "linkedIn-icon"/>
-            <img src={twitter} alt = "twitter-icon"/>
-            <img src={youtube} alt = "youtube-icon"/>
+            <img src={facebook} alt = "facebook-icon" />
+            <img src={linkedIn} alt = "linkedIn-icon" />
+            <img src={twitter} alt = "twitter-icon" />
+            <img src={youtube} alt = "youtube-icon" />
           </div>
         </div>
       </div>
