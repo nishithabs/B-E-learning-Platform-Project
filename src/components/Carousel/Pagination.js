@@ -2,7 +2,7 @@ import React from 'react';
 
 import Dot from './Dot';
 
-const Pagination = ({ slides, activeIndex }) => {
+const Pagination = ({ slides, activeSlide }) => {
   return (
     <div
       style={{
@@ -17,7 +17,7 @@ const Pagination = ({ slides, activeIndex }) => {
       {slides.map((slide, index) => (
         <Dot
           key={slide}
-          active={activeIndex === index}
+          active={activeSlide === index}
         />
       ))}
     </div>

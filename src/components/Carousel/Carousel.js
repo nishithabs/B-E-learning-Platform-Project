@@ -1,55 +1,38 @@
-import React, { useState } from 'react';
+import React, { useEffect, useReducer } from 'react';
 
 import Arrow from './Arrow';
 import Pagination from './Pagination';
 import Slide from "./Slide";
 import SliderContent from './SliderContent';
 
+import { carouselConstants } from './carouselConstants';
+import carouselReducer from './carouselReducer';
+
 import styles from './Carousel.module.css';
 
-const Carousel = ({ slides }) => {
-  const getWidth = () => window.innerWidth;
+const getWidth = () => window.innerWidth;
 
-  const [state, setState] = useState({
-    activeIndex: 0,
+const Carousel = ({ slides }) => {
+  const initialCarouselState = {
+    activeSlide: 0,
     translate: 0,
     transition: 0.45,
+    length: slides.length,
+  };
+
+  const [state, dispatch] = useReducer(carouselReducer, initialCarouselState);
+
+  const { activeSlide, translate, transition } = state;
+
+  const { NEXT, PREV } = carouselConstants;
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      dispatch({ type: NEXT })
+    }, 5000);
+
+    return () => clearInterval(interval);
   });
-
-  const { activeIndex, translate, transition } = state;
-
-  const nextSlide = () => {
-    if (activeIndex === slides.length - 1) {
-      return setState({
-        ...state,
-        translate: 0,
-        activeIndex: 0
-      })
-    }
-
-    setState({
-      ...state,
-      activeIndex: activeIndex + 1,
-      translate: (activeIndex + 1) * getWidth()
-    })
-  };
-
-  const prevSlide = () => {
-    if (activeIndex === 0) {
-      return setState({
-        ...state,
-        translate: (slides.length - 1) * getWidth(),
-        activeIndex: slides.length - 1
-      })
-    }
-
-    setState({
-      ...state,
-      activeIndex: activeIndex - 1,
-      translate: (activeIndex - 1) * getWidth()
-    })
-  };
-
 
   return (
     <section className={styles.carousel}>
@@ -68,10 +51,10 @@ const Carousel = ({ slides }) => {
         }
       </SliderContent>
 
-      <Arrow direction="right" handleClick={nextSlide} />
-      <Arrow direction="left" handleClick={prevSlide} />
+      <Arrow direction="right" handleClick={() => dispatch({ type: NEXT })} />
+      <Arrow direction="left" handleClick={() => dispatch({ type: PREV })} />
 
-      <Pagination slides={slides} activeIndex={activeIndex} />
+      <Pagination slides={slides} activeSlide={activeSlide} />
     </section>
   )
 };
