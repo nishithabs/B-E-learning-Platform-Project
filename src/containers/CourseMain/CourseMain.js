@@ -4,6 +4,17 @@ import styles from './CourseMain.module.css';
 import Content from './Content';
 import Button from '../../components/Button';
 
+import instructorImg1 from './assets/instructor_1.jpg';
+import instructorImg2 from './assets/instructor_2.jpg';
+
+import reviewer1 from './assets/reviewer_1.jpg';
+import reviewer2 from './assets/reviewer_2.jpg';
+import reviewer3 from './assets/reviewer_3.jpg';
+import reviewer4 from './assets/reviewer_4.jpg';
+
+import psm from './assets/psm.png';
+
+
 const CourseMain = () => {
     return(
         <div className={styles.courseContainer}>
@@ -16,7 +27,7 @@ const CourseMain = () => {
             <div className={styles.courseInfo}>
                 <div className={styles.top}>
                     <div className={styles.logo}>
-                        <p>Logo</p>
+                        <img src={psm} alt={"psm-logo"}/>
                     </div>
                     
                     <div className={styles.courseTitleOuter}>
@@ -58,15 +69,11 @@ const CourseMain = () => {
                             <h1>Meet the instructor</h1>
                             <div className={styles.instructorInfo}>
                                 <div className={styles.firstRow}>
-                                    <div className={styles.image}>
-                                        <p>Image1</p>
-                                    </div>
+                                    <img src={instructorImg2} alt={"instructor-2"}/>
                                     <Content/>
                                 </div>
                                 <div className={styles.secondRow}>
-                                    <div className={styles.image}>
-                                        <p>Image2</p>
-                                    </div>
+                                    <img src={instructorImg1} alt={"instructor-1"}/>
                                     <Content/>
                                 </div>
                             </div>
@@ -87,36 +94,28 @@ const CourseMain = () => {
                         <div className={styles.midRightBottom}>
                             <h1>Reviews</h1>
                             <div className={styles.reviews}>
-                                <div className={styles.image}>
-                                    <p>Image</p>
-                                </div>
+                                <img src={reviewer1} alt="first-reviewer"/>
                                 <div className={styles.textBox}>
                                     <Content/>
                                 </div>
                             </div>
 
                             <div className={styles.reviews}>
-                                <div className={styles.image}>
-                                    <p>Image</p>
-                                </div>
+                                <img src={reviewer2} alt="second-reviewer"/>
                                 <div className={styles.textBox}>
                                     <Content/>
                                 </div>
                             </div>
 
                             <div className={styles.reviews}>
-                                <div className={styles.image}>
-                                    <p>Image</p>
-                                </div>
+                                <img src={reviewer3} alt="third-reviewer"/>
                                 <div className={styles.textBox}>
                                     <Content/>
                                 </div>
                             </div>
 
                             <div className={styles.reviews}>
-                                <div className={styles.image}>
-                                    <p>Image</p>
-                                </div>
+                                <img src={reviewer4} alt="fourth-reviewer"/>
                                 <div className={styles.textBox}>
                                     <Content/>
                                 </div>
