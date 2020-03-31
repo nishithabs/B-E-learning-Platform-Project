@@ -1,5 +1,3 @@
-import React from 'react';
-
-const Coaching = () => <section>Coaching</section>;
+import Coaching from "./Coaching";
 
 export default Coaching;
