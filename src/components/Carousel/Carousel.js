@@ -42,10 +42,10 @@ const Carousel = ({ slides }) => {
         width={getWidth() * slides.length}
       >
         {
-          slides.map((slide, index) => (
+          slides.map((slide) => (
             <Slide
-              key={slide + index}
-              content={slide}
+              key={slide.id}
+              slide={slide}
             />
           ))
         }
