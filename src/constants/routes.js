@@ -7,9 +7,9 @@ const routes = {
   COACHING: `${slug}/coaching`,
   CONTACT_US: `${slug}/contact-us`,
   COURSES: `${slug}/courses`,
-  HOME: `${slug}/`,
-  RESOURCES: `${slug}/resources`,
-  TERMS_AND_CONDITIONS: `${slug}/terms-and-conditions`
+  HOME: `${slug}`,
+  TERMS_AND_CONDITIONS: `${slug}/terms-and-conditions`,
+  THANK_YOU: `${slug}/thank_you`,
 };
 
 export default routes;

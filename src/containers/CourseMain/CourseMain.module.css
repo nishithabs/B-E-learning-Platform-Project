@@ -9,16 +9,23 @@
 .topBackground {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 50vh;
+    align-items: center; 
+
+    background-image: url('./assets/bg_course_page.jpg');
     background-color: lightgrey;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 84vh;
     padding: 0;
-    margin: 0;
+    margin-bottom: 20px;
 }
 
 .topBackground p {
     font-family: sans-serif;
     font-size: 22px;
+    visibility: hidden;
 }
 
 .courseInfo {
@@ -36,6 +43,7 @@
 .top {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     height: 170px;
 }
 
@@ -43,11 +51,15 @@
     display: flex;
     width: 30%;
 
-    border: 1px solid black;
     margin: 4px 20px;
     align-items: center;
     justify-content: center;
 
+}
+
+.logo img {
+    height: 125px;
+    width: auto;
 }
 
 .logo p {
@@ -59,8 +71,7 @@
 .courseTitleOuter {
     display: flex;
     flex-direction: column;
-    
-    width: 70%;
+  
     margin: 4px 20px;
 
 }
@@ -80,38 +91,20 @@
 .courseTitleInner li {
     font-size: 16px;
     font-family: sans-serif;
-    /**color: rgb(60, 114, 158);*/
-    color: blue;
+   
     color: rgb(17, 113, 192);
     
     text-transform: uppercase;
 
     margin-top: 0;
-    margin-left: 20px;
-    padding-bottom: 14px;
+    margin-left: 5px;
+    padding-bottom: 10px;
 }
 
 .registerBtn {
-    padding: 9px 0;
-}
-.registerBtn a {
-    font-size: 18px;
-    font-family: sans-serif;
-    text-transform: uppercase;
-
-    color: rgb(60, 114, 158);
-    color: rgb(17, 113, 192);
-
-    background-color: rgb(173, 216, 230);
-    border: 2px solid  rgb(60, 114, 158);
-    border-radius: 10px;
-    padding: 10px 25px; 
-    margin: 0 10px;
+    padding: 0;
 }
 
-.registerBtn a:hover {
-    background-color: rgba(60, 114, 158, 0.6);
-}
 
 
 .middle {
@@ -142,8 +135,7 @@
     margin-left: 10px;
     font-size: 22px;
     font-family:sans-serif;
-    /**color: rgb(60, 114, 158);*/
-    color: blue;
+    
     color: rgb(17, 113, 192);
 
     text-align: left;
@@ -153,9 +145,8 @@
     font-size: 14px;
     font-family: sans-serif;
     text-align: justify;
-    /**color: rgb(60, 114, 158);*/
-    color: blue;
-    color: rgb(17, 113, 192);
+    
+    color: #696867;
 
     line-height: 1.5;;
 
@@ -178,25 +169,17 @@
     margin: 10px;
 }
 
-.image {
+.firstRow img {
     float: left;
-    height: 15vh;
-    width: 30%;
-    margin-right: 10px;
-    margin-top: 4px;
-    border: 1px solid black;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 20vh;
+    margin: 5px 25px 0 12px;
 }
 
-/**temporary css - remove later */
-.instructorImg p {
-    text-transform: uppercase;
-
+.secondRow img {
+    float: left;
+    height: 20vh;
+    margin: 5px 25px 0 12px;
 }
-
 
 .middleRight {
     display: flex;
@@ -204,7 +187,7 @@
     width: 40%;
     margin: 10px 20px;
 
-    border-left: 2px solid  rgb(17, 113, 192);;
+    border-left: 2px solid  #696867;
 }
 
 .midRightTop {
@@ -217,18 +200,21 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+    width: 40%;
 }
 
 .midRightTop li {
     font-family: sans-serif;
     font-size: 16px;
     text-transform: uppercase;
+    text-align: right;
     
     color: rgb(17, 113, 192);
     
     margin-top: 12px;
     margin-left: 10px;
-    padding-bottom: 8px;
+    padding: 0;
+
 }
 
 .midRightBottom {
@@ -243,10 +229,56 @@
     margin: 10px;
 }
 
+.reviews img {
+    height: 12vh;
+    margin: 7px 10px;
+}
+
+/**
 .reviews .image {
     height: 12vh;
-    width: 22%;
+    width: 30%;
+
 }
+
+.reviews .image .imgFirstReview {
+    height: inherit;
+    width: 100%;
+    background-image: url('./assets/reviewer_1.jpg');
+    background-size: cover;
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+
+.reviews .image .imgSecondReview {
+    height: inherit;
+    width: 100%;
+    background-image: url('./assets/reviewer_2.jpg');
+    background-size: cover;
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+
+.reviews .image .imgThirdReview {
+    height: inherit;
+    width: 100%;
+    background-image: url('./assets/reviewer_3.jpg');
+    background-size: cover;
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+
+.reviews .image .imgFourthReview {
+    height: inherit;
+    width: 100%;
+    background-image: url('./assets/reviewer_4.jpg');
+    background-size: cover;
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+*/
+
+
 
 .reviews .textBox {
     display: flex;
