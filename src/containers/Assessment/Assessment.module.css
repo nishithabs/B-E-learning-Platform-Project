@@ -83,8 +83,9 @@ p {
     text-align: center;
 }
 
-.title h1 {
-    padding: 30px;
+.title h2 {
+    padding: 20px;
+    font-size: 22px;
     word-wrap: break-word;
     white-space: normal;
 }
