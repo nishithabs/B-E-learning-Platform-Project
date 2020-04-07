@@ -32,14 +32,18 @@ const Assessment = () => {
                 </div>
                 <div className={styles.bSecond}>
                     <h2>Why Assessment?</h2>
-                    <p>{content.placeholder}</p>
+                    <p>{content.intro_p1}</p>
+                    <p></p>
+                    <p>{content.intro_p2}</p>
+                    <p></p>
+                    <p>{content.intro_p3}</p>
                 </div>
                 <div className={styles.bThird}>
                     <h2> What are the different types of assessment?</h2>
                     <div className={styles.assessment}>
                         <div className={styles.content}>
                             <h3>Leadership assessment:</h3>
-                            <p>{content.placeholder}</p>
+                            <p>{content.leadership}</p>
                         </div>
                         <div className={styles.logo}>
                         <img src={leadership} alt={"leadership-logo"}/>
@@ -49,7 +53,7 @@ const Assessment = () => {
                     <div className={styles.assessment}>
                         <div className={styles.content}>
                             <h3>Organization assessment:</h3>
-                            <p>{content.placeholder}</p>
+                            <p>{content.organization}</p>
                         </div>
 
                         <div className={styles.logo}>
@@ -59,7 +63,7 @@ const Assessment = () => {
                     <div className={styles.assessment}>
                         <div className={styles.content}>
                             <h3>Porfolio assessment:</h3>
-                            <p>{content.placeholder}</p>
+                            <p>{content.portfolio}</p>
                         </div>
 
                         <div className={styles.logo}>
@@ -69,7 +73,7 @@ const Assessment = () => {
                     <div className={styles.assessment}>
                         <div className={styles.content}>
                             <h3>Program assessment:</h3>
-                            <p>{content.placeholder}</p>
+                            <p>{content.program}</p>
                         </div>
 
                         <div className={styles.logo}>
@@ -79,7 +83,7 @@ const Assessment = () => {
                     <div className={styles.assessment}>
                         <div className={styles.content}>
                             <h3>Team assessment:</h3>
-                            <p>{content.placeholder}</p>
+                            <p>{content.team}</p>
                         </div>
 
                         <div className={styles.logo}>
@@ -89,7 +93,7 @@ const Assessment = () => {
                     <div className={styles.assessment}>
                         <div className={styles.content}>
                             <h3>Individual assessment:</h3>
-                            <p>{content.placeholder}</p>
+                            <p>{content.individual}</p>
                         </div>
 
                         <div className={styles.logo}>
