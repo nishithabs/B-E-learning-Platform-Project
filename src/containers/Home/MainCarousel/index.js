@@ -34,6 +34,6 @@ const slides = [{
   },
 ];
 
-const MainCarousel = () => <Carousel slides={slides} />;
+const MainCarousel = () => <Carousel banner slides={slides} />;
 
 export default MainCarousel;
