@@ -9,6 +9,7 @@ import Coaching from './containers/Coaching';
 import ContactUs from './containers/ContactUs';
 import CourseMain from "./containers/CourseMain";
 import Home from './containers/Home';
+import Register from './containers/Register';
 import TermsAndConditions from "./containers/TermsAndConditions";
 import ThankYou from "./containers/ThankYou";
 
@@ -25,6 +26,7 @@ const App = () => (
       <Route path={routes.CONTACT_US} component={ContactUs} />
       <Route path={routes.COURSES} component={CourseMain} />
       <Route exact path={routes.HOME} component={Home} />
+      <Route path={routes.REGISTER} component={Register} />
       <Route path={routes.TERMS_AND_CONDITIONS} component={TermsAndConditions} />
       <Route path={routes.THANK_YOU} component={ThankYou} />
     </main>

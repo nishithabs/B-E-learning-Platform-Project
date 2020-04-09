@@ -3,10 +3,11 @@ import PropTypes from 'prop-types';
 
 import styles from './Button.module.css';
 
-const Button = ({ children, type = 'button' }) => {
+const Button = ({ children, onClick, type = 'button' }) => {
   return (
     <button
       className={styles.button}
+      onClick={onClick}
       type={type}
     >
       {children}
