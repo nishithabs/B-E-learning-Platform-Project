@@ -1,5 +1,3 @@
-import React from 'react';
-
-const ContactUs = () => <section>Contact Us</section>;
+import ContactUs from './ContactUs';
 
 export default ContactUs;

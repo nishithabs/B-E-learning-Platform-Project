@@ -9,8 +9,8 @@ import Coaching from './containers/Coaching';
 import ContactUs from './containers/ContactUs';
 import CourseMain from "./containers/CourseMain";
 import Home from './containers/Home';
-import Resources from "./containers/Resources";
 import TermsAndConditions from "./containers/TermsAndConditions";
+import ThankYou from "./containers/ThankYou";
 
 import GlobalFooter from './components/GlobalFooter';
 import GlobalHeader from './components/GlobalHeader';
@@ -25,8 +25,8 @@ const App = () => (
       <Route path={routes.CONTACT_US} component={ContactUs} />
       <Route path={routes.COURSES} component={CourseMain} />
       <Route exact path={routes.HOME} component={Home} />
-      <Route path={routes.RESOURCES} component={Resources} />
       <Route path={routes.TERMS_AND_CONDITIONS} component={TermsAndConditions} />
+      <Route path={routes.THANK_YOU} component={ThankYou} />
     </main>
     <GlobalFooter />
   </>

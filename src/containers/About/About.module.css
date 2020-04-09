@@ -2,13 +2,25 @@
     height: auto;
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 5px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+}
+
+.banner img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: fill;
+    vertical-align: top;
 }
 
 .top {
     display: flex;
     flex-direction: row;
-    height: 200px;
+    height: 100px;
     align-items: center;
     justify-content: center;
 }
@@ -16,7 +28,8 @@
 .top h1 {
     font-family: sans-serif;
     font-size: 22px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    color: rgb(17, 113, 192);
 }
 
 .contentBox {
@@ -25,7 +38,7 @@
     flex-direction: column;
     margin: auto;
     padding: 10px;
-    border: 1px solid black;
+    border: 2px solid rgb(17, 113, 192);;
     align-items: center;
     justify-content: center;
 }
@@ -33,9 +46,11 @@
 .contentBox h3 {
     font-family: sans-serif;
     font-size: 18px;
+    color: rgb(17, 113, 192);
 }
 
 .contentBox p {
     font-family: sans-serif;
     font-size: 16px;
+    color: #696867;
 }

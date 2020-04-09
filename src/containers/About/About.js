@@ -1,11 +1,15 @@
 import React from "react";
 
 import styles from './About.module.css';
+import bannerImage from '../../assets/about_banner.png'
 
 const About = () => {
     return (
         <section>
             <div className={styles.aboutContainer}>
+                <div className={styles.banner} >
+                    <img src={bannerImage} alt="About Us Banner"/>
+                </div>
                 <div className={styles.top}>
                     <h1>About Us</h1>
                 </div>

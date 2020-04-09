@@ -1,4 +1,3 @@
-/** removed position: fixed*/
 .footerOuter {
     position:relative;
     left: 0;
@@ -46,6 +45,7 @@
     text-transform: uppercase;
     text-decoration: none;
     line-height: 2em;
+    color: rgb(17, 113, 192);
 }
 
 .links a:hover,
@@ -70,4 +70,18 @@
     margin-right: auto;
     margin-bottom: auto;
     width: 30vw;
+}
+
+.socialMediaIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.socialMediaIcons img {
+    height: auto;
+    width: auto;
+    max-height: 25px;
+    max-width: 25px;
 }
