@@ -1,0 +1,63 @@
+.register_page {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: rgb(17, 113, 192);
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.register_page h1 {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: rgb(17, 113, 192);
+}
+
+.register_page p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(17, 113, 192);
+}
+
+.register_page form {
+    padding: 0 10% 5% 10%;
+}
+
+.register_page div {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register_page label {
+    color: rgb(17, 113, 192);
+    font-family: sans-serif;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.register_page input {
+    width: 80%;
+    height: 40px;
+    font-size: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 20px;
+    padding-left: 20%;
+}

@@ -1,0 +1,10 @@
+.banner_image {
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner_image img {
+    object-fit: contain;
+    width: 100%;
+}

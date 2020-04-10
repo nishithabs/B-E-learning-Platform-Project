@@ -1,6 +1,7 @@
 import React, { useEffect, useReducer } from 'react';
 
 import Arrow from './Arrow';
+import InspirationSlide from './InspirationSlide/index';
 import Pagination from './Pagination';
 import Slide from "./Slide";
 import SliderContent from './SliderContent';
@@ -12,7 +13,7 @@ import styles from './Carousel.module.css';
 
 const getWidth = () => window.innerWidth;
 
-const Carousel = ({ slides }) => {
+const Carousel = ({ banner, slides }) => {
   const initialCarouselState = {
     activeSlide: 0,
     translate: 0,
@@ -42,12 +43,22 @@ const Carousel = ({ slides }) => {
         width={getWidth() * slides.length}
       >
         {
-          slides.map((slide) => (
-            <Slide
-              key={slide.id}
-              slide={slide}
-            />
-          ))
+          banner
+            ? (
+              slides.map((slide) => (
+                <Slide
+                  key={slide.id}
+                  slide={slide}
+                />
+              ))
+            ) : (
+              slides.map((slide) => (
+                <InspirationSlide
+                  key={slide.id}
+                  slide={slide}
+                />
+              ))
+            )
         }
       </SliderContent>
 

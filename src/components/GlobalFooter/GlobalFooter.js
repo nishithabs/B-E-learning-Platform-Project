@@ -23,7 +23,7 @@ const GlobalFooter = () => {
           <h3>Related Links</h3>
           <Link to={routes.ABOUT}>About Us</Link>
           <Link to={routes.CONTACT_US}>Contact Us</Link>
-          <Link to={routes.BECOME_A_TRAINER}>Become a Trainer</Link>
+          <Link to={routes.REGISTER}>Become a Trainer</Link>
           <Link to={routes.TERMS_AND_CONDITIONS}>Terms and Conditions</Link>
           <span>Apex Agility &copy; {copyright}</span>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import AboutUsSection from './AboutUsSection';
+import GetInspiredSection from './GetInspiredSection';
 import MainCarousel from './MainCarousel';
 import OurPartnersSection from './OurPartnersSection';
 import OurServicesSection from './OurServicesSection';
@@ -13,6 +14,7 @@ const Home = () => {
       <OurServicesSection />
       <AboutUsSection />
       <OurPartnersSection />
+      <GetInspiredSection />
       <StayConnectedSection />
     </>
   )
