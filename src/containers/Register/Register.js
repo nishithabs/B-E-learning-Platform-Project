@@ -51,9 +51,17 @@ const Register = () => {
             type="tel"
           />
           <Input
-            id="register-payment"
+            id="register-payment-one"
             label="Payment Info"
           />
+          <div className={styles.payment_div}>
+            <Input
+              id="register-payment-two"
+            />
+            <Input
+              id="register-payment-three"
+            />
+          </div>
           <span className={styles.button}>
             <Button
               onClick={handleFormReset}

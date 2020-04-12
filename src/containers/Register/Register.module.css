@@ -54,6 +54,21 @@
     font-size: 20px;
 }
 
+.register_page .payment_div {
+    width: 85%;
+    margin: 0 0 0 15%;
+}
+
+.register_page .payment_div div {
+    width: 45%;
+    margin: 0 0 15px 4%;
+}
+
+.register_page .payment_div input {
+    width: 100%;
+    margin-left: 2.5%;
+}
+
 .button {
     display: flex;
     justify-content: space-between;
