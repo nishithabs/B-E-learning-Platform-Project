@@ -11,10 +11,32 @@
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    width: 15vh;
+    width: 18vh;
     height: 15vh;
-    border: 1px solid black;
+    border: 0px solid black;
+    margin: 0vh 5vh;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 30vw;
+}
+
+.socialMediaIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+
+}
+
+.socialMediaIcons img {
+    height: auto;
+    width: auto;
+    max-height: 25px;
+    max-width: 25px;
 }
