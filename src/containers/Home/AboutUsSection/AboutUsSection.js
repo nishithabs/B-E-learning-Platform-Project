@@ -26,7 +26,7 @@ const AboutUsSection = () => {
         </Button>
         <Button>
           <Link
-            to={routes.COURSES}
+            to={routes.ABOUT}
           >
             What We Do
           </Link>
