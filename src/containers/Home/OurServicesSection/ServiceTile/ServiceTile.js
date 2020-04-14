@@ -11,7 +11,7 @@ const ServiceTile = ({ children, src, title, url }) => {
       <img src={src} alt={title} />
       <p>{children}</p>
       <span>
-        <Link to={url}>Learn More</Link>
+        <Link to={url}></Link>
       </span>
     </div>
   )
