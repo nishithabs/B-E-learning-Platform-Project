@@ -18,8 +18,10 @@ const GlobalFooter = () => {
     <footer className={styles.footerOuter}>
       <div className={styles.footerInner}>
         <div className={styles.logo}>
-          <img src={logo} alt = "logo-icon" />
-	  <Link to={routes.HOME}><br/>360&#176; Collaboration</Link>
+	  <Link to={routes.HOME}>
+            <img src={logo} alt = "logo-icon" />
+	    <br/>360&#176; Collaboration
+          </Link>
         </div>
         <div className={styles.links}>
           <h3>Related Links</h3>

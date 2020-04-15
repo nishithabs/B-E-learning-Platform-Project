@@ -20,8 +20,10 @@ const GlobalHeader = () => {
     <Headroom>
       <header className={styles.header}>
           <div className={styles.logo}>
-	  <img src={logo} alt="Logo-icon" />
-          <Link to={routes.HOME}>360&#176; Collaboration</Link>
+          <Link to={routes.HOME}>
+  	    <img src={logo} alt="Logo-icon" />
+	    <br/>360&#176; Collaboration
+          </Link>
         </div>
         <Navigation />
         <div className={styles.social}>

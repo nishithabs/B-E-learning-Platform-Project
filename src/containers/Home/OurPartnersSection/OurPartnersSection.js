@@ -20,23 +20,20 @@ const OurPartnersSection = () => {
 
             <ServiceTile
               src={safeImage}
-              url={routes.SAFe}
+	      url={'https://www.scaledagileframework.com/'}
             >
-	    <a href='https://www.scaledagileframework.com/'>Scaled Agile Framework</a>
 	   </ServiceTile>
 
             <ServiceTile
               src={scrumOrgImage}
-              url={routes.SCRUM_ORG}
+              url={'https://www.scrum.org/'}
             >
-	    <a href='https://www.scrum.org/'>Scrum.org</a>
 	   </ServiceTile>
 	  
             <ServiceTile
               src={scrumAllianceImage}
-              url={routes.SCRUM_ALLIANCE}
+              url={'https://www.scrumalliance.org/'}
             >
-            <a href='https://www.scrumalliance.org/'>ScrumAlliance.org</a>
 	   </ServiceTile>
 
 </div>
