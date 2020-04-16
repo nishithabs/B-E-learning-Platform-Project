@@ -21,13 +21,13 @@
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
+    
+    top: 0px;
     align-items: center;
     width: 30vw;
     height: 30vh;
-    border: 1px solid black;
-    margin: 0 5vh;
+    border: 0px solid black;
+    margin: 0vh 5vh;
 }
 
 .links {
@@ -41,7 +41,7 @@
 
 .links a {
     font-family: sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 2em;
@@ -75,7 +75,7 @@
 .socialMediaIcons {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: normal;
 
 }
 

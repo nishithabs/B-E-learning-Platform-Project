@@ -9,10 +9,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url("./coaching-banner.png");
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
     height: 50vh;
     padding: 0;
-    margin: 0;
-    background-color: whitesmoke;
+    margin: auto;
 }
 
 .banner p {
@@ -49,7 +53,7 @@ p {
     color: #696867;;
     text-align: justify;
     line-height: 1.5;
-    padding: 0 10px 5px 10px;
+    padding: 0 ;
 }
 
 .title {
@@ -57,10 +61,11 @@ p {
 }
 
 .title h1 {
-    padding: 30px;
+    padding: 10px;
     word-wrap: break-word;
     white-space: normal;
 }
+
 
 .contentBox {
     display: flex;
@@ -74,5 +79,11 @@ p {
 }
 
 .contentBox h2 {
-    margin: 20px;
+    padding: 25px;
 }
+
+.contentBox p {
+    border: solid 2px #4390ff;
+    padding: 25px;
+}
+
