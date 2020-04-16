@@ -16,7 +16,7 @@ const Pagination = ({ slides, activeSlide }) => {
     >
       {slides.map((slide, index) => (
         <Dot
-          key={slide}
+          key={slide.id}
           active={activeSlide === index}
         />
       ))}

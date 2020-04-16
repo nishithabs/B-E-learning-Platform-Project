@@ -1,5 +1,3 @@
-import React from 'react';
-
-const TermsAndConditions = () => <section>Terms and Conditions</section>;
+import TermsAndConditions from './TermsAndConditions';
 
 export default TermsAndConditions;

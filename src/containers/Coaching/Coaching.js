@@ -3,16 +3,15 @@ import styles from './Coaching.module.css'
 import routes from "../../constants/routes";
 import {Link} from "react-router-dom";
 import Button from "../../components/Button";
+import CoachingBannerImage from './coaching-banner.png'
 
 const Coaching = () => {
     return(
         <div className={styles.coachingContainer}>
-            <div className={styles.banner}>
-                <p>Background Image</p>
-            </div>
+            <div className={styles.banner}/>
             <div className={styles.title}>
                 <h1>Coaching</h1>
-            </div>
+                </div>
             <div className={styles.contentBox}>
                 <h2>Agile Transformation</h2>
                 <p>
