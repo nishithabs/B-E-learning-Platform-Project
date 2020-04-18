@@ -53,6 +53,8 @@
     align-items: center;
     margin-right: auto;
     margin-bottom: auto;
+
+    border-left: 2px solid rgb(17, 113, 192);
 }
 
 .socialMediaIcons {
