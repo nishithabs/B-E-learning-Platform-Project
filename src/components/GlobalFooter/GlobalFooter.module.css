@@ -30,6 +30,27 @@
     margin: 0vh 5vh;
 }
 
+.logo div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    height: 12vh;
+}
+
+.logo p {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(17, 113, 192);
+    text-transform: uppercase;
+    text-align: center;
+
+    word-wrap: none;
+}
+
 .links {
     display: flex;
     flex-direction: column;

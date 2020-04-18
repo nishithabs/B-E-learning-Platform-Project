@@ -12,8 +12,13 @@ nav ul {
     flex-direction: row;
 }
 
+
 nav li {
-    padding: 0 50px;
+    padding: 0 20px;
+} 
+
+nav li:last-child {
+    border-right: 2px solid  rgb(17, 113, 192);
 }
 
 nav a {
@@ -23,6 +28,7 @@ nav a {
     text-decoration: none;
     line-height: 2em;
 }
+
 
 /* Dropdown Element */
 .dropdownElement {
@@ -68,4 +74,4 @@ nav a {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdownContent a:hover {background-color: #ddd;}
