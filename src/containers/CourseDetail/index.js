@@ -1,3 +1,3 @@
-import CourseMain from './CourseMain'
+import CourseDetail from './CourseDetail'
 
-export default CourseMain;
+export default CourseDetail;
