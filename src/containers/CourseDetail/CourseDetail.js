@@ -21,6 +21,8 @@ const CourseDetail = ({ location }) => {
   const {
       aboutThisCourse,
       cost,
+      courseLocation,
+      date,
       effortDuration,
       img,
       meetTheInstructors,
@@ -44,8 +46,8 @@ const CourseDetail = ({ location }) => {
               <div className={styles.courseTitleInner}>
                 <ul>
                   <li>Course title: {title}</li>
-                  <li>Start date:</li>
-                  <li>Location:</li>
+                  <li>Start date: {date}</li>
+                  <li>Location: {courseLocation}</li>
                 </ul>
               </div>
               <div className={styles.registerBtn}>
