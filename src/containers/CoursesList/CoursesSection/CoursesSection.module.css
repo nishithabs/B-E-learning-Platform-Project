@@ -1,7 +1,31 @@
-.courses_section {
+.courses_section div {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0 20px 20px;
+}
+
+.courses_section a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    margin: 10px;
+}
+
+.courses_section img {
+    height: 200px;
+    width: 200px;
+}
+
+.courses_section span {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #1171c0;
     padding: 20px;
 }

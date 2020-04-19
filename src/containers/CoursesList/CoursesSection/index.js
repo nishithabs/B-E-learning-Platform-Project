@@ -6,9 +6,12 @@ import styles from './CoursesSection.module.css';
 
 const CoursesSection = ({ sectionCourses, sectionHeader }) => {
   return (
-    <>
+    <section
+      className={styles.courses_section}
+      id={sectionHeader}
+    >
       <h2>{sectionHeader}</h2>
-      <section className={styles.courses_section}>
+      <div>
         {
           sectionCourses.map((course) => {
             return (
@@ -19,8 +22,8 @@ const CoursesSection = ({ sectionCourses, sectionHeader }) => {
             )
           })
         }
-      </section>
-    </>
+      </div>
+    </section>
   )
 };
 

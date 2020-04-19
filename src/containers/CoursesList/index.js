@@ -5,6 +5,7 @@ import { courses } from './courses';
 import BannerImage from '../../components/BannerImage';
 import Button from '../../components/Button';
 
+import bannerImage from './assets/Training.jpg';
 import CoursesSection from './CoursesSection';
 
 import styles from './CoursesList.module.css';
@@ -76,7 +77,7 @@ const CoursesList = () => {
 
   return (
     <>
-      <BannerImage img="" />
+      <BannerImage src={bannerImage} alt="Training page banner image" />
       <section className={styles.filters_row}>
         <span>
           <label htmlFor="type">Filter by</label>
@@ -159,6 +160,11 @@ const CoursesList = () => {
             sectionHeader="PMI"
           />
       }
+      <section>
+        <h2>Corporate Training</h2>
+        <div>
+        </div>
+      </section>
     </>
   )
 };

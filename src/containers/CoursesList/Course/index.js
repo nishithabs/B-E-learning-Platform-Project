@@ -1,24 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+
+import routes from '../../../constants/routes';
 
 const Course = ({ course }) => {
-  const {
-    certifyingBody,
-    role,
-    title,
-    type,
-  } = course;
+  const { id, img, title } = course;
 
   return (
-    <div>
-      <span>Title: {title}</span>
-      <br />
-      <span>Type: {type}</span>
-      <br />
-      <span>Certifying Body: {certifyingBody}</span>
-      <br />
-      <span>Role: {role}</span>
-      <br />
-    </div>
+    <Link
+      to={{
+        pathname: `${routes.COURSES}/${id}`,
+        course: course,
+      }}
+    >
+      <img src={img} alt={title} />
+      <span>{title}</span>
+    </Link>
   )
 };
 

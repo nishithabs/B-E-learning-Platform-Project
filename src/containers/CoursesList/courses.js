@@ -1,9 +1,28 @@
+import cal from './assets/cal.png';
+import csd from './assets/csd.png';
+import csm from './assets/csm.png';
+import cspo from './assets/cspo.png';
+// import inspect_and_adapt from './assets/inspect_and_adapt.png';
+import pmi from './assets/pmi.png';
+import pmp from './assets/pmp.png';
+// import product_management from './assets/product_management.png';
+// import program_increment from './assets/program_increment.png';
+import psd from './assets/psd.png';
+import psm from './assets/psm.png';
+import pspo from './assets/pspo.png';
+import safe from './assets/safe.png';
+// import safe_portfolio from './assets/safe_portfolio.png';
+import sp from './assets/sp.png';
+//vimport team_building from './assets/team_building.png';
+// import value_stream from './assets/value_stream.png';
+
 export const courses = [{
   aboutThisCourse: "Professional Scrum Master training prepares you for Scrum Master Levels 1-3 certification.",
   certifyingBody: "Scrum.org",
   cost: "$1000",
   effortDuration: "2 days",
   id: 1,
+  img: psm,
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -26,6 +45,7 @@ export const courses = [{
   cost: "$1000",
   effortDuration: "2 days",
   id: 2,
+  img: csm,
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -48,6 +68,7 @@ export const courses = [{
   cost: "$1000",
   effortDuration: "2 days",
   id: 3,
+  img: cspo,
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -70,6 +91,7 @@ export const courses = [{
   cost: "$3000",
   effortDuration: "5 days",
   id: 4,
+  img: csd,
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -92,6 +114,7 @@ export const courses = [{
   cost: "$1000",
   effortDuration: "2 days",
   id: 5,
+  img: safe,
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -114,6 +137,7 @@ export const courses = [{
   cost: "$1500",
   effortDuration: "3 days",
   id: 6,
+  img: safe,
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -136,6 +160,7 @@ export const courses = [{
   cost: "$1000",
   effortDuration: "2 days",
   id: 7,
+  img: sp,
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -158,6 +183,7 @@ export const courses = [{
   cost: "$1000",
   effortDuration: "2 days",
   id: 8,
+  img: safe,
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -180,6 +206,7 @@ export const courses = [{
   cost: "$1000",
   effortDuration: "2 days",
   id: 9,
+  img: safe,
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -202,6 +229,7 @@ export const courses = [{
   cost: "$1000",
   effortDuration: "2 days",
   id: 10,
+  img: safe,
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -224,6 +252,7 @@ export const courses = [{
   cost: "$1000",
   effortDuration: "2 days",
   id: 11,
+  img: pspo,
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -246,6 +275,7 @@ export const courses = [{
   cost: "$1500",
   effortDuration: "3 days",
   id: 12,
+  img: psd,
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -268,6 +298,7 @@ export const courses = [{
   cost: "$2000",
   effortDuration: "4 days",
   id: 13,
+  img: pmp,
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -290,6 +321,7 @@ export const courses = [{
   cost: "$1000",
   effortDuration: "2 days",
   id: 14,
+  img: pmi,
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -312,6 +344,7 @@ export const courses = [{
   cost: "$1000",
   effortDuration: "2 days",
   id: 15,
+  img: cal,
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
