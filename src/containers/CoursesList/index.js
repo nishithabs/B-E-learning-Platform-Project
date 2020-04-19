@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import { courses } from './courses';
+import { corporate_courses } from './corporate_courses';
 
 import BannerImage from '../../components/BannerImage';
 import Button from '../../components/Button';
@@ -160,9 +161,19 @@ const CoursesList = () => {
             sectionHeader="PMI"
           />
       }
-      <section>
+      <section className={styles.corporate_training}>
         <h2>Corporate Training</h2>
         <div>
+        {
+          corporate_courses.map((course) => {
+            return (
+            <div>
+              <img src={course.img} alt={course.title} />
+              <h2>{course.title}</h2>
+            </div>
+            )
+          })
+        }
         </div>
       </section>
     </>

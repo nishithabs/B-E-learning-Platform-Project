@@ -20,15 +20,12 @@ const CourseDetail = ({ location }) => {
   const { course } = location;
   const {
       aboutThisCourse,
-      // certifyingBody,
       cost,
       effortDuration,
       img,
       meetTheInstructors,
       reviews,
-      // role,
       title,
-      // type,
       whatYouLearn,
   } = course;
 

@@ -2,19 +2,13 @@ import cal from './assets/cal.png';
 import csd from './assets/csd.png';
 import csm from './assets/csm.png';
 import cspo from './assets/cspo.png';
-// import inspect_and_adapt from './assets/inspect_and_adapt.png';
 import pmi from './assets/pmi.png';
 import pmp from './assets/pmp.png';
-// import product_management from './assets/product_management.png';
-// import program_increment from './assets/program_increment.png';
 import psd from './assets/psd.png';
 import psm from './assets/psm.png';
 import pspo from './assets/pspo.png';
 import safe from './assets/safe.png';
-// import safe_portfolio from './assets/safe_portfolio.png';
 import sp from './assets/sp.png';
-//vimport team_building from './assets/team_building.png';
-// import value_stream from './assets/value_stream.png';
 
 export const courses = [{
   aboutThisCourse: "Professional Scrum Master training prepares you for Scrum Master Levels 1-3 certification.",
