@@ -20,6 +20,7 @@
 .our_partners_section div {
     display: flex;
     padding: 0 0 0 0;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 80%;
+    
 }

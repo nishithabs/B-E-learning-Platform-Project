@@ -23,9 +23,12 @@ const Slide = ({ slide }) => {
           top: '40%',
           left: '50%',
           transform: 'translateX(-50%)',
-          backgroundColor: 'azure',
+          backgroundColor: ' rgba(240, 255, 255, 0.88)',
           color: 'rgb(17, 113, 192)',
           width: '25%',
+          fontSize: 18,
+          borderRadius: 15,
+          textTransform: 'uppercase',
         }}
       >
       {copy}

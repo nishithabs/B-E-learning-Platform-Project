@@ -7,8 +7,8 @@ import ServiceTile from './ServiceTile';
 import styles from './OurPartnersSection.module.css';
 
 import safeImage from './SAFe.png'
-import scrumOrgImage from './Scrum-org.png'
-import scrumAllianceImage from './Scrum-alliance.png'
+import scrumOrgImage from './scrum-org.svg'
+import scrumAllianceImage from './scrum-all.png'
 
 
 

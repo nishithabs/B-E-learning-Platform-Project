@@ -2,7 +2,6 @@
     left: 0;
     top: 0;
     background-color: azure;
-    border-bottom: 1px solid gray;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
