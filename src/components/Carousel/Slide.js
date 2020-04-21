@@ -26,6 +26,7 @@ const Slide = ({ slide }) => {
           backgroundColor: 'azure',
           color: 'rgb(17, 113, 192)',
           width: '25%',
+          textAlign: 'center',
         }}
       >
       {copy}

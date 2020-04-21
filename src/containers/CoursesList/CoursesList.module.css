@@ -1,0 +1,83 @@
+.filters_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.filters_row label {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #1171c0;
+    padding: 20px;
+}
+
+.filters_row select {
+    margin-left: 15px;
+    display: inline-block;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #1171c0;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: azure;
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+.filters_row select::-ms-expand {
+    display: none;
+}
+.filters_row select:hover {
+    border-color: #888;
+}
+.filters_row select:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    color: #222;
+    outline: none;
+}
+.filters_row select option {
+    font-weight:normal;
+}
+
+.corporate_training {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.corporate_training div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0 20px 20px;
+}
+
+.corporate_training div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+}
+
+.corporate_training div img {
+    height: 125px;
+    width: 125px;
+    margin: 10px;
+}
