@@ -13,28 +13,29 @@ const slides = [{
     href: routes.CONTACT_US,
     id: 1,
     image: collaborationBanner,
-    copy: <center>Contact us to start the collaboration!</center>
+    copy: 'Contact us to start the collaboration!'
   },
   {
     buttonText: 'Schedule An Assessment',
     href: routes.ASSESSMENT,
     id: 2,
     image: assessmentBanner,
-    copy: <center>Let our Apex agile experts perform an Agile Maturity Assessment for you!</center>,
+    copy: 'Let our Apex agile experts perform an Agile Maturity Assessment for you!',
   },
   {
     buttonText: 'View Courses',
     href: routes.COURSES,
     id: 3,
     image: upcomingCoursesBanner,
-    copy: <center>Check out our upcoming courses!</center>
+    copy: 'Check out our upcoming courses!'
   },
   {
     buttonText: 'Our Offerings',
     href: routes.ABOUT,
     id: 4,
     image: coachingBanner,
-    copy: <center>See certification classes and corporate training offerings</center>
+    copy: 'See certification classes and corporate training offerings'
+
   },
 ];
 

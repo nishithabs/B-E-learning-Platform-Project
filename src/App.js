@@ -7,7 +7,8 @@ import About from './containers/About';
 import Assessment from "./containers/Assessment";
 import Coaching from './containers/Coaching';
 import ContactUs from './containers/ContactUs';
-import CourseMain from "./containers/CourseMain";
+import CourseDetail from './containers/CourseDetail';
+import CoursesList from './containers/CoursesList';
 import Home from './containers/Home';
 import Register from './containers/Register';
 import TermsAndConditions from "./containers/TermsAndConditions";
@@ -24,7 +25,8 @@ const App = () => (
       <Route path={routes.ASSESSMENT} component={Assessment} />
       <Route path={routes.COACHING} component={Coaching} />
       <Route path={routes.CONTACT_US} component={ContactUs} />
-      <Route path={routes.COURSES} component={CourseMain} />
+      <Route exact path={routes.COURSES} component={CoursesList} />
+      <Route path={`${routes.COURSES}/:id`} component={CourseDetail} />
       <Route exact path={routes.HOME} component={Home} />
       <Route path={routes.REGISTER} component={Register} />
       <Route path={routes.TERMS_AND_CONDITIONS} component={TermsAndConditions} />
