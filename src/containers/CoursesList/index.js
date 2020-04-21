@@ -19,6 +19,8 @@ const CoursesList = () => {
   const [scrumAllianceCourses, setScrumAllianceCourses] = useState([]);
   const [pmiCourses, setPmiCourses] = useState([]);
 
+  const [selectionId, setSelectionId] = useState();
+
   useEffect(() => {
     let tempLeadershipCourses = [];
     let tempScaledAgileCourses = [];
@@ -63,11 +65,17 @@ const CoursesList = () => {
     setPmiCourses(tempPmiCourses);
   }, [displayedCourses]);
 
-  const handleClearFilters = () => setDisplayedCourses(courses);
+  const handleClearFilters = () => {
+    setDisplayedCourses(courses);
+    document.getElementById(selectionId).value = "";
+  }
 
   const handleFilterBySelection = (selection) => {
     const id = selection.currentTarget.id;
     const value = document.getElementById(id).value;
+
+    setSelectionId(id);
+
     if (id && value === "") {
       setDisplayedCourses(courses);
     } else {
