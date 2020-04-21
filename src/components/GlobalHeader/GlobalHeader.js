@@ -20,11 +20,16 @@ const GlobalHeader = () => {
     <Headroom>
       <header className={styles.header}>
           <div className={styles.logo}>
-	  <img src={logo} alt="Logo-icon" />
-          <Link to={routes.HOME}>360&#176; Collaboration</Link>
-        </div>
-        <Navigation />
-        <div className={styles.social}>
+            <Link to={routes.HOME}>
+              <div>
+                <img src={logo} alt="Logo-icon" />
+                <p>360&#176; Collaboration</p>
+              </div>
+            </Link>
+          </div>
+        <div className={styles.navigation}>
+          <Navigation />
+          <div className={styles.social}>
             <div className={styles.viewCourses}>
                 <Button>
                     <Link to={routes.COURSES}>View Courses</Link>
@@ -44,6 +49,7 @@ const GlobalHeader = () => {
                     <img src={youtube} alt="Youtube"/>
                 </a>
             </div>
+          </div>
         </div>
 
       </header>

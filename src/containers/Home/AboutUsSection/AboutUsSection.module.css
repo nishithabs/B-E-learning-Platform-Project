@@ -4,7 +4,7 @@
 }
 
 .about_us_section img {
-    width: 100vw;
+    width: 100%;
 }
 
 .about_us_section p {
@@ -13,8 +13,12 @@
     left: 10px;
     right: 10px;
     width: 72.5%;
-    font-size: 18px;
-    background-color: black;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.85);
+    text-align: left;
+    margin-left: 10px;
+    font-weight: normal;
+    /**background-color: black; */
 }
 
 .about_us_section .button_container {

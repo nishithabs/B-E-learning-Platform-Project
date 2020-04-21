@@ -6,7 +6,7 @@ import styles from './GetInspiredSection.module.css';
 
 const slides = [{
     id: 0,
-    images: ['https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/BarackObamaportrait.jpg/340px-BarackObamaportrait.jpg','https://pngimage.net/wp-content/uploads/2018/06/steve-jobs-png-3.png','https://pngimage.net/wp-content/uploads/2018/05/angela-merkel-png-5.png'],
+    images: ['https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/BarackObamaportrait.jpg/340px-BarackObamaportrait.jpg','https://pngimage.net/wp-content/uploads/2018/06/steve-jobs-png-3.png','https://pngimage.net/wp-content/uploads/2018/05/angela-merkel-png-1.png'],
     reviews: ['This was the stepping stone to a new career and my "Plan B".', 'Getting started was as easy as taking a picture on a phone!', 'Alles hat ein Ende, nur die Wurst hat zwei.'],
     reviewers: ['Barack O.', 'Steve J.', 'Angela M.'],
   },
@@ -14,7 +14,7 @@ const slides = [{
     id: 1,
     images: ['http://people.bu.edu/mgrin/images/mark_bio.jpg', 'https://www.bu.edu/eng/files/2016/05/ECE.faculty.profile.pictures.giles_.jpg', 'https://www.bu.edu/eng/files/2018/06/Kopell-Nancy-BU-BME.jpg'],
     reviews: ['I learned success doesn\'t just find you.  You have to go out and get it.', 'The best thing I ever did for myself.', 'The harder you work for something, the greater you\'ll feel when you achieve it.'],
-    reviewers: ['Mark Grinstaff, Professor, Boston University', 'Rosco Giles, Ph.D., Boston University', 'Nancy Kopell, Ph.D., Boston University College of Engineering'],
+    reviewers: ['Mark Grinstaff, Professor, Boston University', 'Rosco Giles, Ph.D., Boston University', 'Nancy Kopell, Ph.D., Boston University'],
 }];
 
 const GetInspiredSection = () => {
