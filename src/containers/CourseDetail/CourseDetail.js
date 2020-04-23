@@ -68,7 +68,7 @@ const CourseDetail = ({ location }) => {
               <div className={styles.midLeftTop}>
                 <h1>About this course</h1>
                 <div className={styles.textBox}>
-                    {aboutThisCourse}
+                    <p>{aboutThisCourse}</p>
                 </div>
               </div>
 
@@ -84,10 +84,9 @@ const CourseDetail = ({ location }) => {
                   <div className={styles.instructorInfo}>
                     <div className={styles.firstRow}>
                       <img src={instructorImg1} alt="instructor-1" />
-                        {meetTheInstructors.instructorName}
+                        <p>{meetTheInstructors.instructorName}</p>
                         <br />
-                        <br />
-                        {meetTheInstructors.instructorBio}
+                        <p>{meetTheInstructors.instructorBio}</p>
                     </div>
                   </div>
               </div>
@@ -107,28 +106,28 @@ const CourseDetail = ({ location }) => {
                   <div className={styles.reviews}>
                     <img src={reviewer1} alt="first-reviewer"/>
                     <div className={styles.textBox}>
-                      {reviews[0]}
+                      <p>{reviews[0]}</p>
                     </div>
                   </div>
 
                   <div className={styles.reviews}>
                     <img src={reviewer2} alt="second-reviewer"/>
                     <div className={styles.textBox}>
-                        {reviews[1]}
+                        <p>{reviews[1]}</p>
                     </div>
                   </div>
 
                   <div className={styles.reviews}>
                     <img src={reviewer3} alt="third-reviewer"/>
                     <div className={styles.textBox}>
-                        {reviews[2]}
+                        <p>{reviews[2]}</p>
                     </div>
                   </div>
 
                   <div className={styles.reviews}>
                     <img src={reviewer4} alt="fourth-reviewer"/>
                     <div className={styles.textBox}>
-                        {reviews[3]}
+                        <p>{reviews[3]}</p>
                     </div>
                   </div>
               </div>
