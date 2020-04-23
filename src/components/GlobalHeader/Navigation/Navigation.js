@@ -17,7 +17,7 @@ const Navigation = () => {
           <div className={styles.dropdownContent}>
             <Link to={routes.COURSES}>Public</Link>
             <Link to={'#'}>Corporate</Link>
-            <Link to={routes.COURSES}>Upcoming Courses</Link>
+            <Link to={routes.UPCOMING_COURSES}>Upcoming Courses</Link>
           </div>
         </li>
         <li>

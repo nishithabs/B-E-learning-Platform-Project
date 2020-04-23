@@ -1,0 +1,210 @@
+.container {
+    padding: 0;
+    margin: 0;
+}
+
+.topContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+
+    height: 60vh;
+    background-color: lightpink;
+    
+}
+
+.topContainer p {
+    font-size: 22px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+}
+
+.bottomContainer {
+    width: 60%;;
+    margin: auto;
+    padding: 0;
+
+    background-color: white;
+}
+
+@media only screen and (max-width: 1280px) {
+    .bottomContainer {
+        width: 90%;
+    }
+}
+
+.firstRow {
+    display: flex;
+    justify-content: center;
+    margin: 30px 20px 10px 20px;
+
+}
+
+.title {
+    text-align: center;
+    margin-right: 10px;
+}
+
+.title h2 {
+    padding: 5px;
+    font-size: 22px;
+}
+
+.calender, .dummy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 25%;
+
+}
+
+
+
+.secondRow {
+    margin: 0 20px 10px 20px;
+
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+
+.filters {
+    margin: 20px 40px 20px 20px;
+   
+}
+
+.filters .title {
+    text-align: left;
+    padding: 10px 0;
+
+    border: 2px solid rgb(17, 113, 192);
+    border-bottom: none;
+
+    width: 100%;
+}
+
+.filters .title h2 {
+    font-size: 16px;
+}
+
+.filterTypes ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.filterTypes {
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid rgb(17, 113, 192);
+    width: 100%;
+   
+}
+
+.filterTypes select {
+    margin: 10px 10px 0 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #1171c0;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+   
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: azure;
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+
+.filterTypes select::-ms-expand {
+    display: none;
+}
+.filterTypes select:hover {
+    border-color: #888;
+}
+.filterTypes select:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    color: #222;
+    outline: none;
+}
+.filterTypes select option {
+    font-weight:normal;
+    text-transform: capitalize;
+}
+
+.clearBtn {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.clearBtn button {
+    color: rgb(17, 113, 192);
+
+}
+
+.courses {
+    width: 50%;
+    margin: 20px;
+}
+
+.courses .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid rgb(17, 113, 192);
+    margin-bottom: 20px;
+}
+
+.date {
+    list-style: none;
+    padding: 0;  
+}
+
+.date li {
+    border: 1px solid rgb(17, 113, 192);
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(17, 113, 192);
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 4px;
+}
+
+.courseInfo {
+    list-style: none;
+    border: none;
+    padding: 0;
+}
+
+.courseInfo li {
+    border: 1px solid rgb(17, 113, 192);
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(17, 113, 192);
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 4px;
+
+}

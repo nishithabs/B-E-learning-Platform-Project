@@ -32,7 +32,7 @@ const GlobalHeader = () => {
           <div className={styles.social}>
             <div className={styles.viewCourses}>
                 <Button>
-                    <Link to={routes.COURSES}>View Courses</Link>
+                    <Link to={routes.UPCOMING_COURSES}>View Courses</Link>
                 </Button>
             </div>
             <div className={styles.socialMediaIcons}>
