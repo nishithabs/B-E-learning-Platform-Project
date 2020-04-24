@@ -11,7 +11,6 @@ import {monthToString} from './conversion'
 import 'react-calendar/dist/Calendar.css';
 
 const UpcomingCourses = () => {
-    
     const AvailableCourses = ({month, day, title, location, instructor}) => {
         return(
             <div className={styles.description}>
@@ -27,8 +26,6 @@ const UpcomingCourses = () => {
             </div>
         );
     }
-    
-
     const [monthId, setMonthId] = useState(new Date().getMonth());
 
     const [allCourses, setAllCourses] = useState(courses);
@@ -86,23 +83,33 @@ const UpcomingCourses = () => {
         }
       };
 
+    const handleAllCoursesBtn = () => {
+        setAllCourses(courses);
+    }
+
+
     const handleFilterBySelection = (selection) => {
         const id = selection.currentTarget.id;
         const value = document.getElementById(id).value;
 
         let filteredCourses = [];
-    
+
+       
         if (id && value === "") {
           setAllCourses(courses);
         } else {
+
             if (id === "monthId") {
+                const monthValue = parseInt(value);
+                filteredCourses = courses.filter((course) => monthValue === course[id]);
+
                 setMonthId(parseInt(value));
-                filteredCourses = allCourses.filter((course) => value === course[id]);
             }
             else {
-                filteredCourses = allCourses.filter((course) => value === course[id].toLowerCase());
-                setAllCourses(filteredCourses);
+                filteredCourses = courses.filter((course) => value === course[id].toLowerCase());
             }
+
+            setAllCourses(filteredCourses);
         
         }
       };
@@ -118,7 +125,10 @@ const UpcomingCourses = () => {
                         <h2>Upcoming Courses</h2>
                     </div>
                     <div className={styles.calender}>
-                       <Calendar onActiveStartDateChange={({activeStartDate}) => setMonthId(activeStartDate.getMonth())}/>
+                       <Calendar
+                            activeStartDate={new Date(2020, monthId)}
+                            onActiveStartDateChange={({activeStartDate}) => setMonthId(activeStartDate.getMonth())}
+                        />
                     </div>
 
                 </div>
@@ -128,10 +138,8 @@ const UpcomingCourses = () => {
                             <h2>Filter Events</h2>
                         </div>
                         <div className={styles.filterTypes}>
-                        <select id="title" onChange={handleFilterBySelection}>
-                                <option value="">All Courses</option>
-                            </select>
-
+                            <Button onClick={handleAllCoursesBtn}>All Courses</Button>
+                           
                             <select id="type" onChange={handleFilterBySelection}>
                                 <option value="">All Course Type</option>
                                 <option value="leadership">Leadership</option>
@@ -180,11 +188,9 @@ const UpcomingCourses = () => {
                                 <option value="scrum alliance">Scrum Alliance</option>
                                 <option value="scrum.org">Scrum.org</option>
                             </select>
-                            
-                            
-                            <div className={styles.clearBtn}>
+                        </div>
+                        <div className={styles.clearBtn}>
                                 <Button onClick={handleClearFilters}>Clear Filters</Button>
-                            </div>
                         </div>
                     </div>
                     <div className={styles.courses} >
@@ -194,6 +200,9 @@ const UpcomingCourses = () => {
             </div>
         </div>
     );
+
+
+
 }
 
 export default UpcomingCourses;
