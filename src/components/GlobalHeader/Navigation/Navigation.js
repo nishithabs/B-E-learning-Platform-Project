@@ -15,7 +15,7 @@ const Navigation = () => {
         <li className={styles.dropdown}>
           <div className={styles.dropdownElement}>Training</div>
           <div className={styles.dropdownContent}>
-            <Link to={'#'}>Public</Link>
+            <Link to={routes.COURSES}>Public</Link>
             <Link to={'#'}>Corporate</Link>
             <Link to={routes.COURSES}>Upcoming Courses</Link>
           </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import about_us_img from '../../../assets/about_banner.png';
+import about_us_img from '../../../assets/about_banner.jpg';
 import Button from '../../../components/Button';
 import routes from '../../../constants/routes';
 
