@@ -9,7 +9,6 @@ import {courses} from '../CoursesList/courses';
 import {monthToString} from './conversion'
 
 import 'react-calendar/dist/Calendar.css';
-import { act } from "@testing-library/react";
 
 const UpcomingCourses = () => {
     const AvailableCourses = ({month, day, title, location, instructor}) => {
@@ -29,7 +28,7 @@ const UpcomingCourses = () => {
     }
     const [monthId, setMonthId] = useState(new Date().getMonth());
    
-    const [allCourses, setAllCourses] = useState(courses);
+    let [allCourses, setAllCourses] = useState(courses);
     const [coursesByMonth, setCoursesByMonth] = useState([]);
 
     const maxCourseMonthId = courses.reduce((max, c) => c.monthId > max ? c.monthId : max, courses[0].monthId);
@@ -82,6 +81,10 @@ const UpcomingCourses = () => {
         for(let select of selects) {
           select.selectedIndex = 0;
         }
+
+        for (let id in activeFilters) {
+            activeFilters[id] = "";
+        }
       };
 
 
@@ -103,13 +106,17 @@ const UpcomingCourses = () => {
         const selects = document.getElementsByTagName('select');
 
         activeFilters[id] = value;
+        //allCourses = courses;
+
+        let filteredCourses = JSON.parse(JSON.stringify(courses));
 
         setActiveFilters(activeFilters);
-
-       
-
-        if (id && value === "") {
+        if ((id === "monthId") || (id && value === "")) {
           setAllCourses(courses);
+
+          if(id === "monthId") {
+              setMonthId(parseInt(activeFilters[id]));
+          }
 
           for (let id in activeFilters) {
            activeFilters[id] = "";
@@ -120,18 +127,12 @@ const UpcomingCourses = () => {
             }
         } 
         else {
-            let filteredCourses = courses;
             for (let id in activeFilters) {
                 if (activeFilters[id] === "") {
                     continue;
                 }
-                if (id === "monthId") {
-                    const monthValue = parseInt(activeFilters[id]); 
-                    setMonthId(monthValue);
 
-                } else {
-                    filteredCourses = filteredCourses.filter((course) => activeFilters[id] === course[id].toLowerCase());
-                }
+                filteredCourses = filteredCourses.filter((course) => activeFilters[id] === course[id].toLowerCase());
             }
 
             setAllCourses(filteredCourses);
