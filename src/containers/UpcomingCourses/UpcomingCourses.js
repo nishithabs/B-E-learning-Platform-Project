@@ -9,6 +9,7 @@ import {courses} from '../CoursesList/courses';
 import {monthToString} from './conversion'
 
 import 'react-calendar/dist/Calendar.css';
+import { act } from "@testing-library/react";
 
 const UpcomingCourses = () => {
     const AvailableCourses = ({month, day, title, location, instructor}) => {
@@ -27,7 +28,7 @@ const UpcomingCourses = () => {
         );
     }
     const [monthId, setMonthId] = useState(new Date().getMonth());
-
+   
     const [allCourses, setAllCourses] = useState(courses);
     const [coursesByMonth, setCoursesByMonth] = useState([]);
 
@@ -83,34 +84,57 @@ const UpcomingCourses = () => {
         }
       };
 
-    const handleAllCoursesBtn = () => {
-        setAllCourses(courses);
-    }
 
+    let filters = {
+        type: "",
+        monthId: "",
+        country: "",
+        city: "",
+        trainer: "",
+        certifyingBody: "",
+    };
 
+    const [activeFilters, setActiveFilters] = useState(filters);
+ 
+   
     const handleFilterBySelection = (selection) => {
         const id = selection.currentTarget.id;
         const value = document.getElementById(id).value;
+        const selects = document.getElementsByTagName('select');
 
-        let filteredCourses = [];
+        activeFilters[id] = value;
+
+        setActiveFilters(activeFilters);
 
        
+
         if (id && value === "") {
           setAllCourses(courses);
-        } else {
 
-            if (id === "monthId") {
-                const monthValue = parseInt(value);
-                filteredCourses = courses.filter((course) => monthValue === course[id]);
+          for (let id in activeFilters) {
+           activeFilters[id] = "";
+        }
 
-                setMonthId(parseInt(value));
+          for(let select of selects) {
+              select.selectedIndex = 0;
             }
-            else {
-                filteredCourses = courses.filter((course) => value === course[id].toLowerCase());
+        } 
+        else {
+            let filteredCourses = courses;
+            for (let id in activeFilters) {
+                if (activeFilters[id] === "") {
+                    continue;
+                }
+                if (id === "monthId") {
+                    const monthValue = parseInt(activeFilters[id]); 
+                    setMonthId(monthValue);
+
+                } else {
+                    filteredCourses = filteredCourses.filter((course) => activeFilters[id] === course[id].toLowerCase());
+                }
             }
 
             setAllCourses(filteredCourses);
-        
         }
       };
     
@@ -138,7 +162,7 @@ const UpcomingCourses = () => {
                             <h2>Filter Events</h2>
                         </div>
                         <div className={styles.filterTypes}>
-                            <Button onClick={handleAllCoursesBtn}>All Courses</Button>
+                            <Button onClick={handleClearFilters}>All Courses</Button>
                            
                             <select id="type" onChange={handleFilterBySelection}>
                                 <option value="">All Course Type</option>
