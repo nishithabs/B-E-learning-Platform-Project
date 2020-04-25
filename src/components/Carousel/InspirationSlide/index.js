@@ -14,20 +14,29 @@ const InspirationSlide = ({ slide }) => {
           src={image1}
           alt={reviewer1}
           style={{
-            border: '1px solid black',
             height: 150,
-            width: 150,
           }}
         />
         <blockquote
           style={{
             margin: '0 10px',
+            fontFamily:"sans-serif",
+            fontSize: 16,
+            color: "rgb(17, 113, 192)",
           }}
         >
           {review1}
         </blockquote>
         <footer>
-          <i>{reviewer1}</i>
+        <i 
+            style={{
+              fontFamily:"sans-serif",
+              fontSize: 16,
+              color: "rgb(17, 113, 192)",
+            }}
+          >
+              {reviewer1}
+          </i>
         </footer>
       </div>
       <div>
@@ -35,20 +44,29 @@ const InspirationSlide = ({ slide }) => {
           src={image2}
           alt={reviewer2}
           style={{
-            border: '1px solid black',
-            height: 150,
-            width: 150,
+            height: 150
           }}
         />
         <blockquote
           style={{
             margin: '0 10px',
+            fontFamily:"sans-serif",
+            fontSize: 16,
+            color: "rgb(17, 113, 192)",
           }}
         >
           {review2}
         </blockquote>
         <footer>
-          <i>{reviewer2}</i>
+        <i 
+            style={{
+              fontFamily:"sans-serif",
+              fontSize: 16,
+              color: "rgb(17, 113, 192)",
+            }}
+          >
+              {reviewer2}
+          </i>
         </footer>
       </div>
       <div>
@@ -56,20 +74,29 @@ const InspirationSlide = ({ slide }) => {
           src={image3}
           alt={reviewer3}
           style={{
-            border: '1px solid black',
             height: 150,
-            width: 150,
           }}
         />
         <blockquote
           style={{
             margin: '0 10px',
+            fontFamily:"sans-serif",
+            fontSize: 16,
+            color: "rgb(17, 113, 192)",
           }}
         >
           {review3}
         </blockquote>
         <footer>
-          <i>{reviewer3}</i>
+          <i 
+            style={{
+              fontFamily:"sans-serif",
+              fontSize: 16,
+              color: "rgb(17, 113, 192)",
+            }}
+          >
+              {reviewer3}
+          </i>
         </footer>
       </div>
     </div>

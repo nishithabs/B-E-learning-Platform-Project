@@ -7,16 +7,15 @@
 }
 
 .services_tile img {
-    height: 17vw;
-    width: 17vw;
-    border: 1px solid black;
+    height: 15vw;
+    /*width: 17vw; */
     margin: 15px;
 }
 
 .services_tile p {
     text-transform: none;
     line-height: 1.5;
-    font-size: larger;
+    font-size: 16px;
 }
 
 .services_tile span {

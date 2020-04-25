@@ -3,7 +3,7 @@ import React from "react";
 import BannerImage from '../../components/BannerImage';
 
 import styles from './About.module.css';
-import bannerImage from '../../assets/about_banner.png'
+import bannerImage from '../../assets/about_banner.jpg'
 
 const About = () => {
     return (

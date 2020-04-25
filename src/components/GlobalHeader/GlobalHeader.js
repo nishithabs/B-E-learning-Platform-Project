@@ -20,13 +20,38 @@ const GlobalHeader = () => {
     <Headroom>
       <header className={styles.header}>
           <div className={styles.logo}>
-	  <img src={logo} alt="Logo-icon" />
-          <Link to={routes.HOME}>360&#176; Collaboration</Link>
+            <Link to={routes.HOME}>
+              <div>
+                <img src={logo} alt="Logo-icon" />
+                <p>360&#176; Collaboration</p>
+              </div>
+            </Link>
+          </div>
+        <div className={styles.navigation}>
+          <Navigation />
+          <div className={styles.social}>
+            <div className={styles.viewCourses}>
+                <Button>
+                    <Link to={routes.COURSES}>View Courses</Link>
+                </Button>
+            </div>
+            <div className={styles.socialMediaIcons}>
+                <a href="https://www.facebook.com">
+                    <img src={facebook} alt="Facebook"/>
+                </a>
+                <a href="https://www.twitter.com">
+                    <img src={twitter} alt="Twitter"/>
+                </a>
+                <a href="https://www.linkedin.com">
+                    <img src={linkedIn} alt="LinkedIn"/>
+                </a>
+                <a href="https://www.youtube.com">
+                    <img src={youtube} alt="Youtube"/>
+                </a>
+            </div>
+          </div>
         </div>
-        <Navigation />
-        <Button>
-          <Link to={routes.COURSES}>View Courses</Link>
-	 </Button>
+
       </header>
     </Headroom>
   )    

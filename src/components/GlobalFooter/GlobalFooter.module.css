@@ -4,11 +4,11 @@
     bottom: 0;
     width: 100vw;
     background-color: azure;
-    border-top: 1px solid gray;
 }
 
 .footerInner {
     display: flex;
+    justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -24,19 +24,40 @@
     
     top: 0px;
     align-items: center;
-    width: 30vw;
-    height: 30vh;
+    /*width: 30vw;*/ 
+    height: 30vh; 
     border: 0px solid black;
-    margin: 0vh 5vh;
+    margin: 0vh 10vh;
+}
+
+.logo div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    height: 12vh;
+}
+
+.logo p {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(17, 113, 192);
+    text-transform: uppercase;
+    text-align: center;
+
+    word-wrap: none;
 }
 
 .links {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-right: auto;
+    /*margin-right: auto; */
     margin-bottom: auto;
-    width: 30vw;
+    /*width: 30vw; */
 }
 
 .links a {
@@ -57,6 +78,7 @@
     display: flex;
     justify-content: center;
     font-family: sans-serif;
+    color: rgb(17, 113, 192);
     margin-top: 14px;
     margin-bottom: 14px;
     font-size: 12px;
@@ -66,10 +88,11 @@
 .social {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    margin-right: auto;
+    justify-content: flex-end;
+    /*margin-right: auto; */
+    margin: 0vh 10vh; 
     margin-bottom: auto;
-    width: 30vw;
+    /*width: 30vw; */
 }
 
 .socialMediaIcons {

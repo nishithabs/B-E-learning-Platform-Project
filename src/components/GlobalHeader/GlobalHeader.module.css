@@ -2,12 +2,17 @@
     left: 0;
     top: 0;
     background-color: azure;
-    border-bottom: 1px solid gray;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    align-content: space-between;
     padding: 15px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .logo {
@@ -18,20 +23,51 @@
     margin: 0vh 5vh;
 }
 
+
+.logo div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    height: 10vh;
+}
+
+.logo p {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(17, 113, 192);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
 .social {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: center;
     margin-right: auto;
     margin-bottom: auto;
-    width: 30vw;
+
+    border-left: 2px solid rgb(17, 113, 192);
 }
 
 .socialMediaIcons {
     display: flex;
     flex-direction: row;
-    justify-content: normal;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-left: 25px;
+}
 
+.viewCourses button {
+    margin-left: 25px;
+    width: 10vw;
+    padding: 0;
 }
 
 .socialMediaIcons img {
@@ -39,4 +75,5 @@
     width: auto;
     max-height: 25px;
     max-width: 25px;
+    margin: 6px;
 }
