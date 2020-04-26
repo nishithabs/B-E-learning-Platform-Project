@@ -15,7 +15,7 @@ const About = () => {
                         <h1>About Us</h1>
                     </div>
                     <div className={styles.contentBox}>
-                        <h3>Who We Are</h3>
+                        <br/><h3>Who We Are</h3><br/>
                         <p>
                             Apex is a boutique consulting firm with decades of software development experience.  We grew up in the
                             era of structured design methodologies, adapted our learnings to the rapid development approaches, and
@@ -28,23 +28,19 @@ const About = () => {
                             consultant.  All our internal experts are master’s degree students at Boston University’s Metropolitan
                             College.
                             <ul>
-                                <li>
-                                    Devin Dumais, Andras Palfi, and Shailesh Tamrakar are Apex’s three lead development consultants.
-                                </li>
-                                <li>
-                                    Keith Gutfreund leads Apex’s Product Owner and Content Writer teams.  Keith studied
-                                    Electrical and Computer Engineering and has been a hardware and software developer for over
-                                    4 decades.
-                                </li>
-                                <li>Po-Han (John) Huang and Daniela lead Apex’s Quality certification team.</li>
+	                        <li>Nishitha Shivaprasad leads the Apex UI/UX team.</li>
+	                        <li>Alex Bien-Aime is the Apex Scrum Master.</li>
+                                <li>Devin Dumais, Andras Palfi, and Shailesh Tamrakar are Apex’s three lead development consultants.</li>
+                                <li>Keith Gutfreund leads Apex’s Product Owner and Content Writer teams.</li>
+                                <li>Daniela Trendafilova and (John) Po-Han Huang lead Apex’s Quality certification team.</li>
                                 <li>Mingyang Zu is lead consultant for Apex’s Business Analayst certification team.</li>
                             </ul>
                         </p>
-                        <h3>What We Do</h3>
+                        <br/><h3>What We Do</h3><br/>
                         <p>
                             Apex can help you succeed in three ways:
                             <ul>
-                                <li>Training & Certification: our 1-2 day training courses are specifically designed to
+                                <li>Training & Certification: our 1-4 day training courses are specifically designed to
                                     prepare you for the Agile certification exams from SAFe, Scrum.org, and Scrum Alliance.
                                     You can train with confidence due to our Apex guarantee: if you do not succeed in
                                     passing the certification, you may re-enroll in the training at no additional cost.</li>
@@ -55,6 +51,7 @@ const About = () => {
                                     here (click link to Assessment page) for more details.</li>
                             </ul>
                         </p>
+                        <br/><h3><i>Lifelong Learning For The Busy IT Professional&trade;</i></h3><br/>
                     </div>
                 </div>
             </section>
