@@ -28,7 +28,7 @@ const UpcomingCourses = () => {
     }
     const [monthId, setMonthId] = useState(new Date().getMonth());
    
-    let [allCourses, setAllCourses] = useState(courses);
+    const [allCourses, setAllCourses] = useState(courses);
     const [coursesByMonth, setCoursesByMonth] = useState([]);
 
     const maxCourseMonthId = courses.reduce((max, c) => c.monthId > max ? c.monthId : max, courses[0].monthId);
