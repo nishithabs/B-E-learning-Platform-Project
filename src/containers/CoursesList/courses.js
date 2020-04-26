@@ -26,9 +26,11 @@ export const courses = [{
   aboutThisCourse: "Professional Scrum Master training prepares you for Scrum Master Levels 1-3 certification.",
   certifyingBody: "Scrum.org",
   cost: "$1000",
+
   date: "April 22, 2020",
   monthId: 3,
   day: 22,
+
   country: "UK",
   city: "London",
   courseLocation: "London, UK",
@@ -57,14 +59,17 @@ export const courses = [{
   certifyingBody: "Scrum Alliance",
   cost: "$1000",
   courseLocation: "London, UK",
+
   date: "April 22, 2020",
   monthId: 3,
   day: 22,
+
   country: "UK",
   city: "London",
   effortDuration: "2 days",
   id: 2,
   img: csm,
+
   trainer: "Dave West",
   meetTheInstructors: {
     instructorName: "Dave West",
@@ -155,7 +160,9 @@ export const courses = [{
   effortDuration: "2 days",
   id: 5,
   trainer: "Raj Heda",
+
   img: popm,
+
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -185,7 +192,9 @@ export const courses = [{
   effortDuration: "3 days",
   id: 6,
   trainer: "Raj Heda",
+
   img: arch,
+
   meetTheInstructors: {
     instructorName: "Dave West",
     instructorBio: "Dave West is the Product Owner and CEO at scrum.org. He is a frequent keynote speaker and is a widely published author of articles, along with his acclaimed book: Head First Object-Oriented Analysis and Design. He led the development of the Rational Unified Process (RUP) and then worked with Ivar Jacobson running the North American business for IJI. Then managed the software delivery practice at Forrester research where he was VP and research director. Prior to joining Scrum.org he was Chief Product Officer at Tasktop where he was responsible for product management, engineering and architecture.",
@@ -207,9 +216,11 @@ export const courses = [{
   certifyingBody: "Scaled Agile",
   cost: "$1000",
   courseLocation: "London, UK",
+
   date: "June 8, 2020",
   monthId: 5,
   day: 8,
+
   country: "UK",
   city: "London",
   effortDuration: "2 days",
@@ -237,15 +248,18 @@ export const courses = [{
   certifyingBody: "Scaled Agile",
   cost: "$1000",
   courseLocation: "Boston, MA",
+
   date: "June 15, 2020",
   monthId: 5,
   day: 15,
+
   country: "USA",
   city: "Boston",
   effortDuration: "2 days",
   id: 8,
   trainer: "Raj Heda",
   img: sa,
+
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -275,7 +289,9 @@ export const courses = [{
   effortDuration: "2 days",
   id: 9,
   trainer: "Raj Heda",
+
   img: ssm,
+
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -304,8 +320,10 @@ export const courses = [{
   city: "London",
   effortDuration: "2 days",
   id: 10,
+
   trainer: "Dave West",
   img: sgp,
+
   meetTheInstructors: {
     instructorName: "Dave West",
     instructorBio: "Dave West is the Product Owner and CEO at scrum.org. He is a frequent keynote speaker and is a widely published author of articles, along with his acclaimed book: Head First Object-Oriented Analysis and Design. He led the development of the Rational Unified Process (RUP) and then worked with Ivar Jacobson running the North American business for IJI. Then managed the software delivery practice at Forrester research where he was VP and research director. Prior to joining Scrum.org he was Chief Product Officer at Tasktop where he was responsible for product management, engineering and architecture.",
@@ -332,7 +350,9 @@ export const courses = [{
   id: 11,
   trainer: "Raj Heda",
   monthId: 5,
+
   day: 22,
+
   country: "USA",
   city: "Boston",
   img: pspo,
@@ -357,12 +377,16 @@ export const courses = [{
   certifyingBody: "Scrum.org",
   cost: "$1500",
   courseLocation: "Boston, MA",
+
   date: "July 8, 2020",
+
   effortDuration: "3 days",
   id: 12,
   trainer: "Raj Heda",
   monthId: 6,
+
   day: 8,
+
   country: "USA",
   city: "Boston",
   img: psd,
@@ -392,7 +416,9 @@ export const courses = [{
   id: 13,
   trainer: "Raj Heda",
   monthId: 5,
+
   day: 29,
+
   country: "USA",
   city: "Boston",
   img: pmp,
@@ -417,12 +443,16 @@ export const courses = [{
   certifyingBody: "Project Management Institute",
   cost: "$1000",
   courseLocation: "Boston, MA",
+
   date: "July 15, 2020",
+
   effortDuration: "2 days",
   id: 14,
   trainer: "Raj Heda",
   monthId: 6,
+
   day: 15,
+
   country: "USA",
   city: "Boston",
   img: pmi,
@@ -447,7 +477,9 @@ export const courses = [{
   certifyingBody: "Scrum Alliance",
   cost: "$1000",
   courseLocation: "Boston, MA",
+
   date: "July 22, 2020",
+
   effortDuration: "2 days",
   id: 15,
   trainer: "Raj Heda",
