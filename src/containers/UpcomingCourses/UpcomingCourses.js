@@ -172,6 +172,7 @@ const UpcomingCourses = () => {
                                 <option value="scrum alliance">Scrum Alliance</option>
                                 <option value="scrum.org">Scrum.org</option>
                                 <option value="project management institute">Project Management Institute</option>
+                                <option value="corporate">Corporate Training</option>
                             </select>
 
                             <select id="monthId" onChange={handleFilterBySelection}>
