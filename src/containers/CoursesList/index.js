@@ -18,6 +18,7 @@ const CoursesList = () => {
   const [scrumDotOrgCourses, setScrumDotOrgCourses] = useState([]);
   const [scrumAllianceCourses, setScrumAllianceCourses] = useState([]);
   const [pmiCourses, setPmiCourses] = useState([]);
+  const [corporateCourses, setCorporateCourses] = useState([]);
 
   useEffect(() => {
     let tempLeadershipCourses = [];
@@ -25,12 +26,17 @@ const CoursesList = () => {
     let tempScrumDotOrgCourses = [];
     let tempScrumAllianceCourses = [];
     let tempPmiCourses = [];
+    let tempCorporateCourses = [];
 
     displayedCourses.forEach((course) => {
       const { certifyingBody, type } = course;
 
       if (type.includes('leadership')) {
         tempLeadershipCourses.push(course);
+      }
+
+      if (type.includes('corporate')) {
+        tempCorporateCourses.push(course);
       }
 
       switch (certifyingBody || type) {
@@ -61,6 +67,7 @@ const CoursesList = () => {
     setScrumDotOrgCourses(tempScrumDotOrgCourses);
     setScrumAllianceCourses(tempScrumAllianceCourses);
     setPmiCourses(tempPmiCourses);
+    setCorporateCourses(tempCorporateCourses);
   }, [displayedCourses]);
 
   const handleClearFilters = () => {
@@ -99,6 +106,7 @@ const CoursesList = () => {
             <option value="scrum alliance">Scrum Alliance</option>
             <option value="scrum.org">Scrum.org</option>
             <option value="project management institute">Project Management Institute</option>
+            <option value="corporate">Corporate Training</option>
           </select>
         </span>
         <span>
@@ -168,23 +176,13 @@ const CoursesList = () => {
             sectionHeader="PMI"
           />
       }
-      <section className={styles.corporate_training}>
-        <h2>Corporate Training</h2>
-        <div>
-        {
-          corporate_courses.map((course) => {
-            return (
-              <div
-                key={course.id}
-              >
-                <img src={course.img} alt={course.title} />
-                <h2>{course.title}</h2>
-              </div>
-            )
-          })
-        }
-        </div>
-      </section>
+      {
+        corporateCourses.length > 0 &&
+          <CoursesSection
+            sectionCourses={corporateCourses}
+            sectionHeader="Corporate Training"
+          />
+      }
     </>
   )
 };

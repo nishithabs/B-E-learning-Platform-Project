@@ -13,7 +13,7 @@ import Home from './containers/Home';
 import Register from './containers/Register';
 import TermsAndConditions from "./containers/TermsAndConditions";
 import ThankYou from "./containers/ThankYou";
-
+import UpcomingCourses from './containers/UpcomingCourses';
 import GlobalFooter from './components/GlobalFooter';
 import GlobalHeader from './components/GlobalHeader';
 
@@ -27,6 +27,7 @@ const App = () => (
       <Route path={routes.CONTACT_US} component={ContactUs} />
       <Route exact path={routes.COURSES} component={CoursesList} />
       <Route path={`${routes.COURSES}/:id`} component={CourseDetail} />
+      <Route path={routes.UPCOMING_COURSES} component={UpcomingCourses} />
       <Route exact path={routes.HOME} component={Home} />
       <Route path={routes.REGISTER} component={Register} />
       <Route path={routes.TERMS_AND_CONDITIONS} component={TermsAndConditions} />

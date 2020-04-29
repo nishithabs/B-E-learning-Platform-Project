@@ -9,16 +9,42 @@ import psm from './assets/psm.png';
 import pspo from './assets/pspo.png';
 import safe from './assets/safe.png';
 import sp from './assets/sp.png';
+import spc from './assets/spc.png';
+import apm from './assets/apm.png';
+import lpm from './assets/lpm.png';
+import ase from './assets/ase.png';
+import rte from './assets/rte.png';
+import sdp from './assets/sdp.png';
+import ssm from './assets/ssm.png';
+import sasm from './assets/ssm.png';
+import popm from './assets/popm.png';
+import sa from './assets/sa.png';
+import arch from './assets/arch.png';
+import sgp from './assets/sgp.png';
+import val from './assets/value_stream.png';
+import spm from './assets/safe_portfolio.png';
+import p_i from './assets/program_increment.png';
+import i_a from './assets/inspect_and_adapt.png';
+import p_m from './assets/product_management.png';
+import t_b from './assets/team_building.png';
+import psk from './assets/psk.png';
 
 export const courses = [{
   aboutThisCourse: "Professional Scrum Master training prepares you for Scrum Master Levels 1-3 certification.",
   certifyingBody: "Scrum.org",
   cost: "$1000",
-  date: "June 1, 2020",
-  courseLocation: "Boston, MA",
+
+  date: "April 22, 2020",
+  monthId: 3,
+  day: 22,
+
+  country: "UK",
+  city: "London",
+  courseLocation: "London, UK",
   effortDuration: "2 days",
   id: 1,
   img: psm,
+  trainer: "Raj Heda",
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -39,14 +65,22 @@ export const courses = [{
   aboutThisCourse: "A Certified ScrumMaster® is able to assist a scrum team to perform at their optimum level, as well as buffering the team from distractions.  The certification process teaches the Scrum framework and enables CSMs to expand their career opportunities using Agile practices.",
   certifyingBody: "Scrum Alliance",
   cost: "$1000",
-  courseLocation: "Boston, MA",
-  date: "June 1, 2020",
+  courseLocation: "London, UK",
+
+  date: "April 22, 2020",
+  monthId: 3,
+  day: 22,
+
+  country: "UK",
+  city: "London",
   effortDuration: "2 days",
   id: 2,
   img: csm,
+
+  trainer: "Dave West",
   meetTheInstructors: {
-    instructorName: "Raj Heda",
-    instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
+    instructorName: "Dave West",
+    instructorBio: "Dave West is the Product Owner and CEO at scrum.org. He is a frequent keynote speaker and is a widely published author of articles, along with his acclaimed book: Head First Object-Oriented Analysis and Design. He led the development of the Rational Unified Process (RUP) and then worked with Ivar Jacobson running the North American business for IJI. Then managed the software delivery practice at Forrester research where he was VP and research director. Prior to joining Scrum.org he was Chief Product Officer at Tasktop where he was responsible for product management, engineering and architecture.",
   },
   reviews: [
     "This class gave me the exposure to agile and the scrum process that I needed. Thanks!",
@@ -65,10 +99,15 @@ export const courses = [{
   certifyingBody: "Scrum Alliance",
   cost: "$1000",
   courseLocation: "Boston, MA",
-  date: "June 1, 2020",
+  date: "May 1, 2020",
+  monthId: 4,
+  day: 1,
+  country: "USA",
+  city: "Boston",
   effortDuration: "2 days",
   id: 3,
   img: cspo,
+  trainer: "Raj Heda",
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -89,11 +128,16 @@ export const courses = [{
   aboutThisCourse: "A foundational course for developers to prepare for the Scrum Developer scrumalliance.org certificate",
   certifyingBody: "Scrum Alliance",
   cost: "$3000",
-  courseLocation: "Boston, MA",
+  courseLocation: "London, UK",
   date: "June 1, 2020",
+  monthId: 5,
+  day: 1,
+  country: "UK",
+  city: "London",
   effortDuration: "5 days",
   id: 4,
   img: csd,
+  trainer: "Raj Heda",
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -115,10 +159,17 @@ export const courses = [{
   certifyingBody: "Scaled Agile",
   cost: "$1000",
   courseLocation: "Boston, MA",
-  date: "June 1, 2020",
+  monthId: 3,
+  day: 29,
+  country: "USA",
+  city: "Boston",
+  date: "April 29, 2020",
   effortDuration: "2 days",
   id: 5,
-  img: safe,
+  trainer: "Raj Heda",
+
+  img: popm,
+
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -140,13 +191,20 @@ export const courses = [{
   certifyingBody: "Scaled Agile",
   cost: "$1500",
   courseLocation: "Boston, MA",
-  date: "June 1, 2020",
+  monthId: 4,
+  day: 1,
+  country: "USA",
+  city: "Boston",
+  date: "May 1, 2020",
   effortDuration: "3 days",
   id: 6,
-  img: safe,
+  trainer: "Raj Heda",
+
+  img: arch,
+
   meetTheInstructors: {
-    instructorName: "Raj Heda",
-    instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
+    instructorName: "Dave West",
+    instructorBio: "Dave West is the Product Owner and CEO at scrum.org. He is a frequent keynote speaker and is a widely published author of articles, along with his acclaimed book: Head First Object-Oriented Analysis and Design. He led the development of the Rational Unified Process (RUP) and then worked with Ivar Jacobson running the North American business for IJI. Then managed the software delivery practice at Forrester research where he was VP and research director. Prior to joining Scrum.org he was Chief Product Officer at Tasktop where he was responsible for product management, engineering and architecture.",
   },
   reviews: [
     "I’ve been a system architect for years – this class enabled me to integrate my experience with the principles of Agile/Lean. Thanks!",
@@ -164,10 +222,17 @@ export const courses = [{
   aboutThisCourse: "An intermediate-level course for SAFe practitioners in a Lean-Agile environment.",
   certifyingBody: "Scaled Agile",
   cost: "$1000",
-  courseLocation: "Boston, MA",
-  date: "June 1, 2020",
+  courseLocation: "London, UK",
+
+  date: "June 8, 2020",
+  monthId: 5,
+  day: 8,
+
+  country: "UK",
+  city: "London",
   effortDuration: "2 days",
   id: 7,
+  trainer: "Raj Heda",
   img: sp,
   meetTheInstructors: {
     instructorName: "Raj Heda",
@@ -190,10 +255,18 @@ export const courses = [{
   certifyingBody: "Scaled Agile",
   cost: "$1000",
   courseLocation: "Boston, MA",
-  date: "June 1, 2020",
+
+  date: "June 15, 2020",
+  monthId: 5,
+  day: 15,
+
+  country: "USA",
+  city: "Boston",
   effortDuration: "2 days",
   id: 8,
-  img: safe,
+  trainer: "Raj Heda",
+  img: sa,
+
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -214,11 +287,18 @@ export const courses = [{
   aboutThisCourse: "A foundational course for the Certified SAFe® Scrum Master certificate",
   certifyingBody: "Scaled Agile",
   cost: "$1000",
-  courseLocation: "Boston, MA",
-  date: "June 1, 2020",
+  courseLocation: "London, UK",
+  date: "July 1, 2020",
+  monthId: 6,
+  day: 1,
+  country: "UK",
+  city: "London",
   effortDuration: "2 days",
   id: 9,
-  img: safe,
+  trainer: "Raj Heda",
+
+  img: ssm,
+
   meetTheInstructors: {
     instructorName: "Raj Heda",
     instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
@@ -239,14 +319,21 @@ export const courses = [{
   aboutThisCourse: "A foundational course for the Certified SAFe® Government Practitioner certificate",
   certifyingBody: "Scaled Agile",
   cost: "$1000",
-  courseLocation: "Boston, MA",
-  date: "June 1, 2020",
+  courseLocation: "London, UK",
+  date: "July 1, 2020",
+  monthId: 6,
+  day: 1,
+  country: "UK",
+  city: "London",
   effortDuration: "2 days",
   id: 10,
-  img: safe,
+
+  trainer: "Dave West",
+  img: sgp,
+
   meetTheInstructors: {
-    instructorName: "Raj Heda",
-    instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
+    instructorName: "Dave West",
+    instructorBio: "Dave West is the Product Owner and CEO at scrum.org. He is a frequent keynote speaker and is a widely published author of articles, along with his acclaimed book: Head First Object-Oriented Analysis and Design. He led the development of the Rational Unified Process (RUP) and then worked with Ivar Jacobson running the North American business for IJI. Then managed the software delivery practice at Forrester research where he was VP and research director. Prior to joining Scrum.org he was Chief Product Officer at Tasktop where he was responsible for product management, engineering and architecture.",
   },
   reviews: [
     "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
@@ -256,7 +343,7 @@ export const courses = [{
   ],
   role: "Scrum Master",
   title: "Certified SAFe® Government Practitioner",
-  type: "Live",
+  type: "Scaled Agile",
   whatYouLearn: {
     __html: "<p>This course is designed to enable you to be prepared and ready to be at the forefront of a Lean-Agile transformation initiative within a program operating in an agency run by the government. Attendees will learn how to utilize the Scaled Agile Framework® in their government agency in order to provide maximum value through the Lean-Agile transformation.</p><p>During this course you will learn how and why Lean-Agile is a mindset, and the reasons it is essential to bring this mindset as a foundation in a government agency before beginning the transformation. Additionally, you will learn about Agile Release Trains (ART) and how to best utilize them once transformation begins. You will also learn about tailor-made leadership skills and strategies that are best suited to delivering successful transformation and change in the government sector. Trainers will provide best practices and advice on how to best create successful Agile teams, programs, and how to best manage the technology investments that take place in government agencies within the Lean mindset and flow. Finally, you will learn about how to contract in an Agile environment, how to launch your program, and how to ensure you are using SAFe to plan in such a way that ensures you will deliver value to your government agency.</p><p>Unlike any other training program, we offer the following bonuses:</p><ul><li>The highest passing rates: The Certified SAFe® Government Practitioner certification exam is rigorous, but you will be prepared. Nearly 100% of our graduates pass the exam on their very first attempt. In the unlikely event that you would need to retake the exam, a second trial is free and additional examinations are discounted.</li><li>Free follow-up access to your course materials for one year.</li><li>25% discount on future course fees. Save on courses as you sail through the certification process.</li></ul><p>Anytime availability: Your courses are available over the Internet 7 days a week and 24 hours a day. Study at any day and time you want. Once you are ready, simply sign up to take the certification exam!</p><p><b>Prerequisites:</b> Highly recommended that participants have foundational and base understanding of Agile Manifesto, SAFe House of Lean, SAFe Principles, and foundational and base understanding of lifecycle of technology programs in government.</p>",
   },
@@ -265,9 +352,16 @@ export const courses = [{
   certifyingBody: "Scrum.org",
   cost: "$1000",
   courseLocation: "Boston, MA",
-  date: "June 1, 2020",
+  date: "June 22, 2020",
   effortDuration: "2 days",
   id: 11,
+  trainer: "Raj Heda",
+  monthId: 5,
+
+  day: 22,
+
+  country: "USA",
+  city: "Boston",
   img: pspo,
   meetTheInstructors: {
     instructorName: "Raj Heda",
@@ -290,9 +384,18 @@ export const courses = [{
   certifyingBody: "Scrum.org",
   cost: "$1500",
   courseLocation: "Boston, MA",
-  date: "June 1, 2020",
+
+  date: "July 8, 2020",
+
   effortDuration: "3 days",
   id: 12,
+  trainer: "Raj Heda",
+  monthId: 6,
+
+  day: 8,
+
+  country: "USA",
+  city: "Boston",
   img: psd,
   meetTheInstructors: {
     instructorName: "Raj Heda",
@@ -315,9 +418,16 @@ export const courses = [{
   certifyingBody: "Project Management Institute",
   cost: "$2000",
   courseLocation: "Boston, MA",
-  date: "June 1, 2020",
+  date: "June 29, 2020",
   effortDuration: "4 days",
   id: 13,
+  trainer: "Raj Heda",
+  monthId: 5,
+
+  day: 29,
+
+  country: "USA",
+  city: "Boston",
   img: pmp,
   meetTheInstructors: {
     instructorName: "Raj Heda",
@@ -340,9 +450,18 @@ export const courses = [{
   certifyingBody: "Project Management Institute",
   cost: "$1000",
   courseLocation: "Boston, MA",
-  date: "June 1, 2020",
+
+  date: "July 15, 2020",
+
   effortDuration: "2 days",
   id: 14,
+  trainer: "Raj Heda",
+  monthId: 6,
+
+  day: 15,
+
+  country: "USA",
+  city: "Boston",
   img: pmi,
   meetTheInstructors: {
     instructorName: "Raj Heda",
@@ -365,9 +484,16 @@ export const courses = [{
   certifyingBody: "Scrum Alliance",
   cost: "$1000",
   courseLocation: "Boston, MA",
-  date: "June 1, 2020",
+
+  date: "July 22, 2020",
+
   effortDuration: "2 days",
   id: 15,
+  trainer: "Raj Heda",
+  monthId: 6,
+  day: 22,
+  country: "USA",
+  city: "Boston",
   img: cal,
   meetTheInstructors: {
     instructorName: "Raj Heda",
@@ -383,6 +509,449 @@ export const courses = [{
   title: "Certified Agile Leadership",
   type: "leadership",
   whatYouLearn: {
-    __html: "<p>This foundational two-day course provides attendees the background required to achieve the Certified Agile Leadership 1 certification from the Scrum Alliance. The training is oriented towards information technology (IT) product managers, supervisors, directors, leaders, coaches, or anyone in a managerial position who is interested in learning to apply Agile principles to their leadership.</p><p>The applicability of Agile management techniques extends throughout the IT industry and beyond.  This course will demonstrate many of those techniques that prove useful for common organizational and management challenges, such as, effective leadership of distributed and diverse teams, delivering value, and promoting the Scrum values of courage, focus, commitment, respect and openness.   From their experience in both the Agile and non-Agile worlds, Apex’s instructors will show you how to value: individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan.</p><p>A Certified Agile Leadership 1 certificate holder will be expected to have an understanding of management practices, particularly those found in IT organizations.  From the perspective of an experienced IT manager, the course prepares the student to apply Agile techniques to attain advanced leadership and management responsibilities in a enterprise  environment. Course instructors draw from their own real-life experience to immerse the student in actual business scenarios.  From there, instructors provide guidance in the application of Agile techniques.</p><p>After completing the course, participants will be able to demonstrate their knowledge of the theory and practice needed for Agile leadership.  All students who successfully complete the course will be prepared to take the Certified Agile Leadership 1 exam.</p><p>Unlike any other training program, we offer the following bonuses:</p><ul><li>The highest passing rates: The Certified Agile Leadership 1 (CAL1) certification exam is rigorous, but you will be prepared. Nearly 100% of our graduates pass the exam on their very first attempt. In the unlikely event that you would need to retake the exam, a second trial is free and additional examinations are discounted.</li><li>Free follow-up access to your course materials for one year.</li><li>25% discount on future course fees. Save on courses as you sail through the certification process.</li></ul><p>Anytime availability: Your course are available over the Internet 7 days a week and 24 hours a day. Study at any day and time you want. Once you are ready, simply sign up to take the certification exam!</p><p><b>Prerequisites:</b> Previous experience as a manager in an IT organization highly desired, whether from actual industry experience or theory.</p>",
+    __html: "<p>This foundational two-day course provides attendees the background required to achieve the Certified Agile Leadership 1 certification from the Scrum Alliance. The training is oriented towards information technology (IT) product managers, supervisors, directors, leaders, coaches, or anyone in a managerial position who is interested in learning to apply Agile principles to their leadership.</p><p>The applicability of Agile management techniques extends throughout the IT industry and beyond.  This course will demonstrate many of those techniques that prove useful for common organizational and management challenges, such as, effective leadership of distributed and diverse teams, delivering value, and promoting the Scrum values of courage, focus, commitment, respect and openness.   From their experience in both the Agile and non-Agile worlds, Apex’s instructors will show you how to value: individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan.</p><p>A Certified Agile Leadership 1 certificate holder will be expected to have an understanding of management practices, particularly those found in IT organizations.  From the perspective of an experienced IT manager, the course prepares the student to apply Agile techniques to attain advanced leadership and management responsibilities in a enterprise  environment. Course instructors draw from their own real-life experience to immerse the student in actual business scenarios.  From there, instructors provide guidance in the application of Agile techniques.</p><p>After completing the course, participants will be able to demonstrate their knowledge of the theory and practice needed for Agile leadership.  All students who successfully complete the course will be prepared to take the Certified Agile Leadership 1 exam.</p><p>Unlike any other training program, we offer the following bonuses:</p><ul><li>The highest passing rates: The Certified Agile Leadership 1 (CAL1) certification exam is rigorous, but you will be prepared. Nearly 100% of our graduates pass the exam on their very first attempt. In the unlikely event that you would need to retake the exam, a second trial is free and additional examinations are discounted.</li><li>Free follow-up access to your course materials for one year.</li><li>25% discount on future course fees. Save on courses as you sail through the certification process.</li></ul><p>Anytime availability: Your course are available over the Internet 7 days a week and 24 hours a day. Study at any day and time you want. Once you are ready, simply sign up to take the certification exam!</p><p><b>Prerequisites:</b> Previous experience as a manager in an IT organization highly desired, whether from actual industry experience or theory.</p>"
   },
+},
+{			
+  aboutThisCourse: "A foundational course for the Certified SAFe® Program Consultant certificate",
+  certifyingBody: "Scaled Agile",
+  cost: "$2000",
+  courseLocation: "London, UK",
+  date: "April 27, 2020",
+  effortDuration: "4 days",
+  id: 16,
+  trainer: "Dave West",
+  monthId: 3,
+  day: 27,
+  country: "UK",
+  city: "London",
+  img: spc,
+  meetTheInstructors: {
+    instructorName: "Dave West",
+    instructorBio: "Dave West is the Product Owner and CEO at scrum.org. He is a frequent keynote speaker and is a widely published author of articles, along with his acclaimed book: Head First Object-Oriented Analysis and Design. He led the development of the Rational Unified Process (RUP) and then worked with Ivar Jacobson running the North American business for IJI. Then managed the software delivery practice at Forrester research where he was VP and research director. Prior to joining Scrum.org he was Chief Product Officer at Tasktop where he was responsible for product management, engineering and architecture.",
+  },
+  reviews: [
+      "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+      "Fantastic experience! Highly recommended! I am looking forward to sharing what I’ve learned with my enterprise",
+      "Dave is an excellent instructor, always willing to help and great at explaining concepts.",
+      "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!",
+  ],
+  role: "Scrum Master",
+  title: "Certified SAFe® Program Consultant",
+  type: "Scrum Alliance",
+  whatYouLearn: {
+  __html: "<p> If you are looking to learn the skills needed in order to lead a Lean-Agile transformation in an organization at any level, this course is for you. In four days, you will learn how to best use and incorporate the Scaled Agile Framework® (SAFe®) in order to lead any organization through  the Lean-Agile transformative process. You will learn about seven different core competencies that have been identified within any Lean Enterprise. Trainers will provide you not only with knowledge and skills, but with hands-on practice on coaching programs, constructing a Continuous Delivery Pipeline, strengthening a Lean Portfolio in an organization, and leading the start of Agile Release Trains.</p><p>The course is divided into two sections. The first section will take place on the first two days. During this time, you will gain a thorough understanding of what Leading SAFe® is all about and why it is important in a Lean organization. The last two days of the course will be an intensive time looking at how to implement the SAFe® concepts. You will learn exactly what needs to taken place and what you will need to do in order to implement these concepts as you lead an organization into a Lean transformation. After this course, you will be fully equipped to coach and direct an enterprise at any level to success in the Lean transformative process. </p><p>Unlike any other training program, we offer the following bonuses:</p><ul><li>The highest passing rates: The Certified SAFe® Agile Program Consultant certification exam is rigorous, but you will be prepared. Nearly 100% of our graduates pass the exam on their very first attempt.  Nearly 100% of our graduates pass the exam on their very first attempt.  In the unlikely event that you would need to retake the exam, a second trial is free and additional examinations are discounted.</li><li>Free follow-up access to your course materials for one year.</li><li>25% discount on future course fees.  Save on courses as you sail through the certification process.</li></ul><p><b>Prerequisites:</b> Highly recommended that participants have 5+ years of experience working in software development, business analysis, testing, project management, or product management fields,  3+ years working in an Agile environment, and 1 or more current Agile certifications.</p>",
+  },
+},
+
+{
+  aboutThisCourse: "A foundational course for the Certified SAFe® Advanced Scrum Master certificate",
+  certifyingBody: "Scaled Agile",
+  cost: "$1000",
+  courseLocation: "London, UK",
+  date: "July 22, 2020",
+  effortDuration: "2 days",
+  id: 17,
+  trainer: "Dave West",
+  monthId: 6,
+  day: 22,
+  country: "London",
+  city: "UK",
+  img: sasm,
+  meetTheInstructors: {
+    instructorName: "Dave West",
+    instructorBio: "Dave West is the Product Owner and CEO at scrum.org. He is a frequent keynote speaker and is a widely published author of articles, along with his acclaimed book: Head First Object-Oriented Analysis and Design. He led the development of the Rational Unified Process (RUP) and then worked with Ivar Jacobson running the North American business for IJI. Then managed the software delivery practice at Forrester research where he was VP and research director. Prior to joining Scrum.org he was Chief Product Officer at Tasktop where he was responsible for product management, engineering and architecture.",
+  },
+  reviews: [
+      "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+
+      "Fantastic experience! Highly recommended! I am looking forward to sharing what I’ve learned with my enterprise.",
+
+      "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+
+      "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!",
+  ],
+  role: "Scrum Master",
+  title: "Certified SAFe® Advanced Scrum Master",
+  type: "Scrum Alliance",
+  whatYouLearn: {
+    __html: "<p>Are you a current Scrum Master looking to sharpen your skills and move up in your career? This course is designed with you in mind. In this two day course, you will learn how to use your leadership skills to utilize Agile skills and principles in order to lead teams, programs, and whole enterprises to great success as they seek to implement a Scaled Agile Framework (SAFe®).</p><p>As a Scrum Master you are focused on leading your teams, and this course will help take you to the next step by providing instruction on how to facilitate communication and interaction across multiple teams as they work in unison to support and encourage program goals. Trainers will show you how to improve your current Scrum mindset by introducing you to the concept of scalable engineering and the practices of DevOps. In addition, trainers will demonstrate how you can use Kanban principles to create value that maintains a constant flow of improvement, and how you can best support the interactions of key stakeholders involved at both the program and enterprise levels. Finally, you will be equipped with knowledge and tools that will enable you to create teams who perform at the highest levels. </p><p>Unlike any other training program, we offer the following bonuses:</p><ul><li>The highest passing rates: The Certified SAFe® Advanced Scrum Master certification exam is rigorous, but you will be prepared. Nearly 100% of our graduates pass the exam on their very first attempt.  Nearly 100% of our graduates pass the exam on their very first attempt.  In the unlikely event that you would need to retake the exam, a second trial is free and additional examinations are discounted.</li><li>Free follow-up access to your course materials for one year.</li><li>25% discount on future course fees.  Save on courses as you sail through the certification process.</li></ul><p><b>Prerequisites:</b>Highly recommended that participants have one of the following certifications: SAFe® 5 Scrum Master (SSM) Certification, Certified Scrum Master (CSM) certification, or Professional Scrum Master (PSM) certification.</p>",
+  },
+},
+
+{
+  aboutThisCourse: "An advanced course for experienced developers/testers to prepare for the SAFe® DevOps Practitioner certificate.",
+  certifyingBody: "Scaled Agile",
+  cost: "$1000",
+  courseLocation: "London, UK",
+  date: "May 8, 2020",
+  effortDuration: "2 days",
+  id: 18,
+  trainer: "Dave West",
+  monthId: 4,
+  day: 8,
+  country: "UK",
+  city: "London",
+  img: sdp,
+  meetTheInstructors: {
+    instructorName: "Raj Heda",
+    instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
+  },
+  reviews: [
+      "There’s a lot more to DevOps than learning how to program – this class highlights the areas in the pipeline that really matter.",
+      "I was able to pass the certification exam and implement better DevOps after taking this class.",
+      "I’m not a developer, but I found this course invaluable in understanding the DevOps process.  It really helped my career progression.",
+      "My instructor was great. The interactivity helped to drive home the information, and I was able to put it to use quickly.  Highly recommended.",
+  ],
+  role: "Developer",
+  title: "Certified SAFe® DevOps Practitioner",
+  type: "Scrum Alliance",
+  whatYouLearn: {
+  __html: "<p>This is a two-day course focused on highlighting the DevOps mindset to enable Agile team members to deliver solutions in a rapidly changing world.  Encompassing problem definition, development, testing, deployment and support, DevOps is crucial to success in the current fast-paced environment.  This course will furnish a strong background in DevOps, not only to developers but also to every member of an agile team.</p><p>After this two-day intensive course, participants will learn the basics of DevOps, how it fits into the Agile development process, and how to build a customized development/deployment pipeline that works for their organization.  You’ll learn a CALMR approach to DevOps which will enable you to recognize broken processes and not merely automate them.  In addition, you’ll learn a set of tools and practices that will speed and secure your develop/deploy pipeline.  Upon completing the course, you will be eligible to take the Certified SAFe® DevOps Practitioner exam.</p><p>Unlike any other training program, we offer the following bonuses:</p><ul><li>The highest passing rates: The Certified SAFe® DevOps Practitioner certification exam is rigorous, but you will be prepared. Nearly 100% of our graduates pass the exam on their very first attempt.  Nearly 100% of our graduates pass the exam on their very first attempt.  In the unlikely event that you would need to retake the exam, a second trial is free and additional examinations are discounted.</li><li>Free follow-up access to your course materials for one year.</li><li>25% discount on future course fees.  Save on courses as you sail through the certification process.</li></ul><p><b>Prerequisites:</b> Previous experience as a developer or tester in an IT organization highly desired, whether from actual industry experience or theory.</p>",
+  },
+
+},
+{
+  aboutThisCourse: "An intermediate- to advanced-level course on Agile Release Trains for Agile leaders, coaches and Scrum Masters.",
+  certifyingBody: "Scaled Agile",
+  cost: "$1500",
+  courseLocation: "London, UK",
+  date: "May 8, 2020",
+  effortDuration: "3 days",
+  id: 19,
+  trainer: "Dave West",
+  monthId: 4,
+  day: 8,
+  country: "UK",
+  city: "London",
+  img: rte,
+  meetTheInstructors: {
+    instructorName: "Dave West",
+    instructorBio: "Dave West is the Product Owner and CEO at scrum.org. He is a frequent keynote speaker and is a widely published author of articles, along with his acclaimed book: Head First Object-Oriented Analysis and Design. He led the development of the Rational Unified Process (RUP) and then worked with Ivar Jacobson running the North American business for IJI. Then managed the software delivery practice at Forrester research where he was VP and research director. Prior to joining Scrum.org he was Chief Product Officer at Tasktop where he was responsible for product management, engineering and architecture.",
+  },
+  reviews: [
+    "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+    "Fantastic experience! Highly recommended! I am looking forward to sharing what I’ve learned with my enterprise.",
+    "Dave is an excellent instructor, always willing to help and great at explaining concepts.",
+    "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!",
+  ],
+  role: "Product Owner",
+  title: "Certified SAFe® Release Train Engineer",
+  type: "Scrum Alliance",
+  whatYouLearn: {
+  __html: "<p>This intermediate- to advanced-level three-day course provides attendees the knowledge to implement Agile Release Trains (ARTs) using the Scaled Agile Framework® (SAFe®) in a Lean-Agile enterprise.  The training is oriented towards Agile leaders, coaches, and Scrum Masters. Starting with a review of Lean-Agile principles, you will be guided through the intricacies of Agile Release Trains and the challenges for implementing these principles in an enterprise setting.</p><p>A Certified SAFe Release Train Engineer certificate holder will be expected to have a thorough understanding of the key Lean-Agile concepts and practices. From the perspective of an already expert SAFe practitioner, the course prepares the student for advanced leadership, coaching and Scrum Master responsibilities in a enterprise SAFe environment.  Instructors draw from their own real-life experience to immerse the student in actual business scenarios.  From there, instructors guide students to create, manage and deploy ARTs.  As this is intermediate- to advanced-level training, students gain an appreciation both for the power, as well as the shortcomings, of ARTs in an enterprise setting.</p><p><b>Learning Outcome</b><p>After completing the course, participants will be able to demonstrate their knowledge of the theory and practice needed for implementing Agile Release Trains in a Lean-Agile environment.  All students who successfully complete the course will be prepared to take the Certified SAFe® Release Train Engineer  exam.</p><p>Unlike any other training program, we offer the following bonuses:</p><ul><li>The highest passing rates: The Certified SAFe® Release Train Engineer certification exam is rigorous, but you will be prepared. Nearly 100% of our graduates pass the exam on their very first attempt.  Nearly 100% of our graduates pass the exam on their very first attempt.  In the unlikely event that you would need to retake the exam, a second trial is free and additional examinations are discounted.</li><li>Free follow-up access to your course materials for one year.</li><li>25% discount on future course fees.  Save on courses as you sail through the certification process.</li></ul><p><b>Prerequisites:</b> Experience with managing Agile software development projects is highly desired, whether from actual industry experience or theory.</p>",
+  },
+
+},
+{
+  aboutThisCourse: "A foundational Lean-Agile and DevOps course for SAFe practitioners.",
+  certifyingBody: "Scaled Agile",
+  cost: "$1500",
+  courseLocation: "London, UK",
+  date: "May 15, 2020",
+  effortDuration: "3 days",
+  id: 20,
+  trainer: "Dave West",
+  monthId: 4,
+  day: 15,
+  country: "UK",
+  city: "London",
+  img: ase,
+  meetTheInstructors: {
+    instructorName: "Dave West",
+    instructorBio: "Dave West is the Product Owner and CEO at scrum.org. He is a frequent keynote speaker and is a widely published author of articles, along with his acclaimed book: Head First Object-Oriented Analysis and Design. He led the development of the Rational Unified Process (RUP) and then worked with Ivar Jacobson running the North American business for IJI. Then managed the software delivery practice at Forrester research where he was VP and research director. Prior to joining Scrum.org he was Chief Product Officer at Tasktop where he was responsible for product management, engineering and architecture.",
+  },
+  reviews: [
+      "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+      "Fantastic experience! Highly recommended! I am looking forward to sharing what I’ve learned with my enterprise.",
+      "Dave is an excellent instructor, always willing to help and great at explaining concepts.",
+    "My instructor was great. They kept the energy level high, and everyone in the class passed the CSM certification on their first try.  Highly recommended.",
+  ],
+  role: "Developer",
+  title: "Certified SAFe® Agile Software Engineer",
+  type: "Scrum Alliance",
+  whatYouLearn: {
+  __html: "<p>This three-day course provides attendees with the foundational knowledge required to establish their credentials as a Certified Scaled Agile Framework® (SAFe®) Agile Software Engineer.  We start with principles behind iterative software development in a SAFe environment, which include the key concepts of managing product backlogs from user stories and requirements, demonstrating value, and incremental and iterative delivery.  An Agile Software Engineer must be equally knowledgeable in DevOps as well as in Lean-Agile, and our expert faculty provide a comprehensive overview.</p><p>A Certified Agile Software Developer certificate holder will be expected to show competency in all aspects of an Agile iterative software development environment.  From the SAFe software developer’s perspective, the course prepares the student in all aspects of the Agile software development process.  Instructors use real-life examples to show students key SAFe skills and then students are given an opportunity to practice the same skills.  As in other SAFe certificate programs, participants in the class explore the importance of adopting a customer-centric mindset and design thinking approach to agile product delivery.</p><p><b>Learning Outcome</b></p><p>After completing the course, participants will be able to demonstrate their knowledge of the theory and practice needed for participating as a SAFe Agile Software Engineer in their enterprise.  All students who successfully complete the course will be prepared to take the Certified SAFe® Agile Software Engineer exam.</p><p>Unlike any other training program, we offer the following bonuses:</p><ul><li>The highest passing rates: The Certified SAFe® Agile Software Engineer certification exam is rigorous, but you will be prepared. Nearly 100% of our graduates pass the exam on their very first attempt.  Nearly 100% of our graduates pass the exam on their very first attempt.  In the unlikely event that you would need to retake the exam, a second trial is free and additional examinations are discounted.</li><li>Free follow-up access to your course materials for one year.</li><li>25% discount on future course fees.  Save on courses as you sail through the certification process.</li></ul><p><b>Prerequisites:</b> Experience with managing Agile software development projects is highly desired, whether from actual industry experience or theory.</p>",
+  },
+
+},
+{
+  aboutThisCourse: "A foundational Lean-Agile and Portfolio operations course for SAFe portfolio managers.",
+  certifyingBody: "Scaled Agile",
+  cost: "$1500",
+  courseLocation: "London, UK",
+  date: "May 22, 2020",
+  effortDuration: "3 days",
+  id: 21,
+  trainer: "Dave West",
+  monthId: 4,
+  day: 22,
+  country: "UK",
+  city: "London",
+  img: lpm,
+  meetTheInstructors: {
+    instructorName: "Dave West",
+    instructorBio: "Dave West is the Product Owner and CEO at scrum.org. He is a frequent keynote speaker and is a widely published author of articles, along with his acclaimed book: Head First Object-Oriented Analysis and Design. He led the development of the Rational Unified Process (RUP) and then worked with Ivar Jacobson running the North American business for IJI. Then managed the software delivery practice at Forrester research where he was VP and research director. Prior to joining Scrum.org he was Chief Product Officer at Tasktop where he was responsible for product management, engineering and architecture.",
+  },
+  reviews: [
+      "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+      "Fantastic experience! Highly recommended! I am looking forward to sharing what I’ve learned with my enterprise.",
+      "Dave is an excellent instructor, always willing to help and great at explaining concepts. ",
+      "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!",
+  ],
+  role: "Product Owner",
+  title: "Certified SAFe® Lean Portfolio Manager",
+  type: "Scrum Alliance",
+  whatYouLearn: {
+  __html: "<p>A Certified SAFe Lean Portfolio Manager certificate holder will be expected to show competency in all aspects of managing an Agile iterative software development environment.  From the SAFe portfolio manager's perspective, the course prepares the student to demonstrate their expertise in managing an enterprise-wide portfolio of Agile projects.   Instructors draw from their own real-life industry experience to show students key SAFe techniques for establishing a portfolio vision, for performing Lean portfolio budgeting, port and for using portfolio tools like Portfolio Kanban.  Students are given an opportunity to practice and apply these same skills with scenarios drawn from actual industry problems.  As this is a foundational level course, participants gain an appreciation both for the power, as well as the shortcomings, of Lean portfolio management in an enterprise setting.</p><p><b>Learning Outcome</b></p><p>After completing this three-day foundational course, participants will be able to demonstrate their knowledge of the theory and practice needed for implementing SAFe Lean portfolio management practices in their work.  All students who successfully complete the course will be prepared to take the Certified SAFe® Lean Portfolio Manager exam.</p><p>Unlike any other training program, we offer the following bonuses:</p><ul><li>The highest passing rates: The Certified SAFe® Lean Portfolio Manager certification exam is rigorous, but you will be prepared. Nearly 100% of our graduates pass the exam on their very first attempt.  Nearly 100% of our graduates pass the exam on their very first attempt.  In the unlikely event that you would need to retake the exam, a second trial is free and additional examinations are discounted.</li><li>Free follow-up access to your course materials for one year.</li><li>25% discount on future course fees.  Save on courses as you sail through the certification process.</li></ul><p><b>Prerequisites:</b> Some experience with Agile software management principles and practices will be helpful, whether from actual industry experience or from reading</p>",
+  },
+
+},
+{
+  aboutThisCourse: "A foundational course for the Agile Product Manager certificate",
+  certifyingBody: "Scaled Agile",
+  cost: "$1500",
+  courseLocation: "London, UK",
+  date: "June 20, 2020",
+  effortDuration: "3 days",
+  id: 22,
+  trainer: "Dave West",
+  monthId: 5,
+  day: 29,
+  country: "UK",
+  city: "London",
+  img: apm,
+  meetTheInstructors: {
+    instructorName: "Dave West",
+    instructorBio: "Dave West is the Product Owner and CEO at scrum.org. He is a frequent keynote speaker and is a widely published author of articles, along with his acclaimed book: Head First Object-Oriented Analysis and Design. He led the development of the Rational Unified Process (RUP) and then worked with Ivar Jacobson running the North American business for IJI. Then managed the software delivery practice at Forrester research where he was VP and research director. Prior to joining Scrum.org he was Chief Product Officer at Tasktop where he was responsible for product management, engineering and architecture.",
+  },
+  reviews: [
+    "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+    "Fantastic experience! Highly recommended! I am looking forward to sharing what I’ve learned with my enterprise.",
+    "Dave is an excellent instructor, always willing to help and great at explaining concepts.",
+    "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!",
+  ],
+  role: "Scrum Master",
+  title: "Certified SAFe® Agile Product Manager",
+  type: "Project Manager",
+  whatYouLearn: {
+      __html: "<p>This foundational three-day course provides attendees the background required to achieve the Certified SAFe® Agile Product Manager certification.  The training is oriented towards product managers, leaders and coaches.  Starting with a review of Lean-Agile principles, you will be guided through the intricacies of Agile product management and the challenges for implementing these principles in an enterprise setting. </p><p>A Certified SAFe® Agile Product Manager certificate holder will be expected to have a thorough understanding of key Lean-Agile concepts and practices for both software development as well as product management.  From the perspective of an Agile product manager, the course prepares the student for advanced leadership and management responsibilities in a enterprise SAFe environment. Course instructors draw from their own real-life experience to immerse the student in actual business scenarios.  From there, instructors guide students to create, manage and deploy ARTs.</p><p>After completing the course, participants will be able to demonstrate their knowledge of the theory and practice needed for product management in a Lean-Agile environment.  All students who successfully complete the course will be prepared to take the Certified SAFe® Product Manager exam.</p><p>Unlike any other training program, we offer the following bonuses:</p><ul><li>The highest passing rates: The Certified SAFe® Agile Product Manager certification exam is rigorous, but you will be prepared. Nearly 100% of our graduates pass the exam on their very first attempt.  Nearly 100% of our graduates pass the exam on their very first attempt.  In the unlikely event that you would need to retake the exam, a second trial is free and additional examinations are discounted.</li><li>Free follow-up access to your course materials for one year.</li><li>25% discount on future course fees.  Save on courses as you sail through the certification process.</li></ul><p><b>Prerequisites:</b> Experience with managing Agile software development projects is highly desired, whether from actual industry experience or theory.</p>",
+  },
+}, 
+ {
+  aboutThisCourse: "A foundational workshop to introduce the concept of Value Streams.",
+  certifyingBody: "Corporate",
+  cost: "$1000",
+  courseLocation: "London, UK",
+  date: "April 27, 2020",
+  effortDuration: "2 days",
+  id: 30,
+  trainer: "Dave West",
+  monthId: 3,
+  day: 27,
+  country: "UK",
+  city: "London",
+  img: val,
+  meetTheInstructors: {
+    instructorName: "Dave West",
+    instructorBio: "Dave West is the Product Owner and CEO at scrum.org. He is a frequent keynote speaker and is a widely published author of articles, along with his acclaimed book: Head First Object-Oriented Analysis and Design. He led the development of the Rational Unified Process (RUP) and then worked with Ivar Jacobson running the North American business for IJI. Then managed the software delivery practice at Forrester research where he was VP and research director. Prior to joining Scrum.org he was Chief Product Officer at Tasktop where he was responsible for product management, engineering and architecture.",
+  },
+  reviews: [
+    "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+    "Fantastic experience! Highly recommended! I am looking forward to sharing what I’ve learned with my enterprise.",
+    "Dave is an excellent instructor, always willing to help and great at explaining concepts.",
+    "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!",
+  ],
+  role: "Product Owner",
+  title: "Value Stream Corporate Workshop",
+  type: "corporate",
+  whatYouLearn: {
+      __html: "<p>Value Streams are all about implementing practices and optimizing an organization so that it can provide a continuous flow of value to its customers.  We find that today’s businesses are too often focused on delivering products and specific product features without taking into consideration their ultimate value to the customer.  Value streams start with and focus specifically on business value provided to the customer.</p><p>Understanding value streams becomes increasingly important as the complexity of your organization grows.  Drawing upon parallels from the Scaled Agile Framework (SAFe), many of the techniques that help with coordination and interconnection between Agile processes will also be shown effective at coordinating and delivering value at scale.</p><p>In this workshop you will partner and collaborate with other students representing a broad swath of your corporate know-how.  Under the expert guidance of experienced facilitators, you will have the opportunity to immerse yourself in several actual business challenges and then learn how value stream coordination can help you manage the many competing requirements that may interfere with delivering value.  You will have the opportunity to experience, practice, and apply new ways of thinking about delivering customer value.  In demonstrations of complex organizations, you will see how these practices scale to meet your challenges.</p><p><b>Prerequisites:</b> Experience in management is highly desired, whether from IT or from other departments.</p>",
+  },   
+}, 
+ {
+  aboutThisCourse: "A foundational Lean-Agile and Portfolio operations course for SAFe portfolio managers.",
+  certifyingBody: "Corporate",
+  cost: "$1000",
+  courseLocation: "London, UK",
+  date: "April 29, 2020",
+  effortDuration: "2 days",
+  id: 31,
+  trainer: "Dave West",
+  monthId: 3,
+  day: 29,
+  country: "UK",
+  city: "London",
+  img: spm,
+  meetTheInstructors: {
+    instructorName: "Dave West",
+    instructorBio: "Dave West is the Product Owner and CEO at scrum.org. He is a frequent keynote speaker and is a widely published author of articles, along with his acclaimed book: Head First Object-Oriented Analysis and Design. He led the development of the Rational Unified Process (RUP) and then worked with Ivar Jacobson running the North American business for IJI. Then managed the software delivery practice at Forrester research where he was VP and research director. Prior to joining Scrum.org he was Chief Product Officer at Tasktop where he was responsible for product management, engineering and architecture.",
+  },
+  reviews: [
+    "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+    "Fantastic experience! Highly recommended! I am looking forward to sharing what I’ve learned with my enterprise.",
+    "Dave is an excellent instructor, always willing to help and great at explaining concepts.",
+    "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!",
+  ],
+  role: "Product Owner",
+  title: "SAFe® Portfolio Management",
+  type: "corporate",
+  whatYouLearn: {
+      __html: "<p>The SAFe® Portfolio Management corporate training fits hand in glove with Apex’s SAFe Lean Portfolio Manager certificate training.  Similar to the certificate training, the course prepares the student to demonstrate their expertise in managing an enterprise-wide portfolio of Agile projects. Instructors draw from their own real-life industry experience to show students key SAFe techniques for establishing a portfolio vision, for performing Lean portfolio budgeting, port and for using portfolio tools like Portfolio Kanban. Students are given an opportunity to practice and apply these same skills with scenarios drawn from actual industry problems.  Whereas the certificate training is a foundational level course, the corporate training is far more detailed and specifically targeted for the user’s business challenges.</p><p>In this workshop you will partner and collaborate with other students representing a broad swath of your corporate know-how. Under the expert guidance of experienced facilitators, you will have the opportunity to immerse yourself in several actual business challenges and then learn how SAFE portfolio management techniques can help you manage the many competing requirements that may interfere with delivering value.  Alongside a deep dive into the complexities of your organization, you will have the opportunity to see and experience how organizations like yours apply SAFe practices to meet their business challenges.</p><p><b>Prerequisites:</b> Experience in management is highly desired; experience in SAFe or Agile techniques will be beneficial.</p>",
+  },  
+}, 
+ {
+  aboutThisCourse: "An interactive course for all Agile practitioners",
+  certifyingBody: "Corporate",
+  cost: "$1500",
+  courseLocation: "London, UK",
+  date: "May 1, 2020",
+  effortDuration: "3 days",
+  id: 32,
+  trainer: "Dave West",
+  monthId: 4,
+  day: 1,
+  country: "UK",
+  city: "London",
+  img: p_i,
+  meetTheInstructors: {
+    instructorName: "Dave West",
+    instructorBio: "Dave West is the Product Owner and CEO at scrum.org. He is a frequent keynote speaker and is a widely published author of articles, along with his acclaimed book: Head First Object-Oriented Analysis and Design. He led the development of the Rational Unified Process (RUP) and then worked with Ivar Jacobson running the North American business for IJI. Then managed the software delivery practice at Forrester research where he was VP and research director. Prior to joining Scrum.org he was Chief Product Officer at Tasktop where he was responsible for product management, engineering and architecture.",
+  },
+  reviews: [
+    "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+    "Fantastic experience! Highly recommended! I am looking forward to sharing what I’ve learned with my enterprise.",
+    "Dave is an excellent instructor, always willing to help and great at explaining concepts.",
+    "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!",
+  ],
+  role: "Product Owner",
+  title: "Program Increment Workshop",
+  type: "corporate",
+  whatYouLearn: {
+      __html: "<p>In an Agile development environment, a program increment (PI) is a timebox during which the Agile Release Train incrementally delivers value through deploying new systems and software.  It is the summation of a set of sprints, and usually lasts 8-12 weeks.  The PI is the final artifact of the scrum framework, and represents a usable solution.</p><p>This workshop guides participants through the process of defining the program increment, guiding its development cycle, and realizing its functionality through deployment.  Practicing Scrum without a program increment is merely wasted effort and a lost opportunity.  This customized workshop shows your team how to successfully define and deliver the PI.</p><p>Everyone in the Agile team will benefit from this workshop.  You’ll learn how to set realistic goals for the program increment, how to ensure sprints will deliver the PI, and how to utilize program increments to continuously improve the outcomes of your agile development process.</p><p>Unlike any other training program, we offer the following bonuses:</p><ul><li>Free follow-up access to your course materials for one year.</li><li>25% discount on future course fees. Save on courses as you sail through the certification process.</li><li>Anytime availability: Your course are available over the Internet 7 days a week and 24 hours a day. Study at any day and time you want. Once you are ready, simply sign up to take the certification exam!</ul><p><b>Prerequisites:</b> Previous experience in an IT organization highly desired, whether from actual industry experience or theory. </p>",
+  }, 	
+}, 
+ {
+  aboutThisCourse: "A foundational course suitable for all Agile team members",
+  certifyingBody: "Corporate",
+  cost: "$1500",
+  courseLocation: "London, UK",
+  date: "May 1, 2020",
+  effortDuration: "3 days",
+  id: 33,
+  trainer: "Raj Heda",
+  monthId: 4,
+  day: 1,
+  country: "USA",
+  city: "Boston",
+  img: i_a,
+  meetTheInstructors: {
+    instructorName: "Raj Heda",
+    instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
+  },
+  reviews: [
+      "Great workshop – we saw results with our next iteration!",
+      "Many groups gloss over this step.  The workshop helped us to use the I-A to really make progress with our processes",
+      "I was amazed at how much value I got from the workshop.  Our team is better at getting better now that we have been shown how the process should be done.",
+      "I recommended this workshop to any group who is not seeing the results from their Agile implementation.",
+  ],
+  role: "Scrum Master",
+  title: "Inspect & Adapt",
+  type: "corporate",
+  whatYouLearn: {
+      __html: "<p>At the core of the Agile principles is the concept of regular reflection and tuning.  Inspect & Adapt takes place at the end of each Program Increment.  All of the stakeholders participate in the event, identifying backlog items for improvement and bolstering the culture of continuous learning.</p><p>The Inspect &amp; Adapt workshop will demonstrate how this Agile principle can be implemented in your environment.  From the workshop, you will gain the skills needed to be introspective about your successes and areas needing more focus.</p><p>The Inspect &amp; Adapt workshop allows you to release the potential of compounding your triumphs using Agile.  You’ll see how to demonstrate the program increment, how to measure its benefits both qualitatively and quantitatively, and how to master the complicated process of reflection and continuous improvement.</p><p>Unlike any other training program, we offer the following bonuses:</p><ul><li>Free follow-up access to your course materials for one year.</li><li>25% discount on future course fees. Save on courses as you sail through the certification process.</li><li>Anytime availability: Your course are available over the Internet 7 days a week and 24 hours a day. Study at any day and time you want. Once you are ready, simply sign up to take the certification exam!</ul><p><b>Prerequisites:</b> Previous experience in an IT organization highly desired, whether from actual industry experience or theory. </p>",
+  },
+}, 
+ {
+  aboutThisCourse: "A workshop for experience product managers interested in working in an Agile environment",
+  certifyingBody: "Corporate",
+  cost: "$1500",
+  courseLocation: "London, UK",
+  date: "May 4, 2020",
+  effortDuration: "3 days",
+  id: 34,
+  trainer: "Raj Heda",
+  monthId: 4,
+  day: 4,
+  country: "USA",
+  city: "Boston",
+  img: p_m,
+  meetTheInstructors: {
+    instructorName: "Raj Heda",
+    instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
+  },
+  reviews: [
+      "This was great – I now understand how to incorporate the Agile principles with product management. Thanks!",
+      "Well worth the time.  Our product management has improved and will continue to do so as we continue our implementation.",
+      "We got a lot out of the workshop – I was glad to have been invited to participate.",
+      "This was the best use of my time in a long while.  Implement Agile requires a new way to do our jobs, and this workshop has opened my eyes.  Just great.",
+  ],
+  role: "Product Owner",
+  title: "Product Management Workshop",
+  type: "corporate",
+  whatYouLearn: {
+      __html: "<p>Product Management has been around as long as there have been products, but it has been redefined in the Agile world.  In an Agile framework, product management is redefined to allow for building and deploying products in a new way.  The ability to work with an iterative development cycle and a fast-moving and self-organized team requires a different approach.</p><p>This workshop highlights the ways that product management in an Agile environment can maintain high standards while taking advantage of the flexibility and quick delivery of value to customers.  Product managers learn how to set a clear vision for the team, guide the backlog, and maintain alignment with the business goals. Using skills from this workshop, project managers and other stakeholders will get first-hand experience in how to identify and prioritize features, manage the backlog, and see that the goals of each program increment are realized.</p><p>Unlike any other training program, we offer the following bonuses:</p><ul><li>Free follow-up access to your course materials for one year.</li><li>25% discount on future course fees. Save on courses as you sail through the certification process.</li><li>Anytime availability: Your course are available over the Internet 7 days a week and 24 hours a day. Study at any day and time you want. Once you are ready, simply sign up to take the certification exam!</ul><p><b>Prerequisites:</b> Previous experience in an IT organization highly desired, whether from actual industry experience or theory.</p>",
+  },    	  		        
+}, 
+ {
+  aboutThisCourse: "A workshop designed to help teams connect and increase their effectiveness",
+  certifyingBody: "Corporate",
+  cost: "$500",
+  courseLocation: "London, UK",
+  date: "May 6, 2020",
+  effortDuration: "1 day",
+  id: 35,
+  trainer: "Raj Heda",
+  monthId: 4,
+  day: 6,
+  country: "USA",
+  city: "Boston",
+  img: t_b,
+  meetTheInstructors: {
+    instructorName: "Raj Heda",
+    instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
+  },
+  reviews: [
+      "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+      "Fantastic experience! Highly recommended! I am looking forward to sharing what I’ve learned with my enterprise.",
+      "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+      "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!",
+  ],
+  role: "Product Owner",
+  title: "Team Building Workshop",
+  type: "corporate",
+  whatYouLearn: {
+      __html: "<p>Are your teams suffering from lack of cohesion and connectedness? Are you and they feeling disconnected and frustrated because they just can’t seem to work well together? If these questions describe your teams, then this team building workshop is the perfect fit for you.</p><p>Our professional team building trainers have years of experience helping teams connect and form bonds, which enable them to be happier, more effective, and increase their performance. During this one day workshop, your team will participate in multiple team-building activities, from games to interactive discussions with one another, all of which will help them discover how to better connect and work with one another</p><p>Our trainers design these activities based on your team’s individual needs, so you can rest assured that this workshop will be tailor made for your team. Through these activities and reflective discussions, every member of your team will learn how to appreciate the unique contributions brought to the table by each member, and how they can all work together to maximize their effectiveness by recognizing their individual strengths and contributions. By the end of this workshop, we guarantee that your team members will have formed bonds, identified how to continue and strengthen their ties to each other, and be ready and excited to work together. </p><p>Unlike any other training program, we offer the following bonuses:</p><ul><li>Free follow-up access to your course materials for one year.</li><li>25% discount on future course fees. Save on courses as you sail through the certification process.</li><li>Anytime availability: Your course are available over the Internet 7 days a week and 24 hours a day. Study at any day and time you want. Once you are ready, simply sign up to take the certification exam!</ul><p><b>Prerequisites:</b> None.</p>",
+  }, 
+}, 
+ {
+  aboutThisCourse: "A workshop designed to help teams be equipped to use Scrum and Kanban principles in their working environments.",
+  certifyingBody: "Corporate",
+  cost: "$500",
+  courseLocation: "London, UK",
+  date: "May 7, 2020",
+  effortDuration: "1 day",
+  id: 36,
+  trainer: "Raj Heda",
+  monthId: 4,
+  day: 7,
+  country: "USA",
+  city: "Boston",
+  img: psk,
+  meetTheInstructors: {
+    instructorName: "Raj Heda",
+    instructorBio: "Raj Heda has been teaching software development and Agile courses for over 20 years. He has extensive experience leading teams in Agile transformation, with successful results. Raj currently teaches in the Boston area at Boston University and Brandeis University.",
+  },
+  reviews: [
+      "Great course; I learned everything I needed and more! I am excited to implement these skills into my role in my organization.",
+      "Fantastic experience! Highly recommended! I am looking forward to sharing what I’ve learned with my enterprise.",
+      "Raj is an excellent instructor, always willing to help and great at explaining concepts.",
+      "This course equipped me with the skills I needed to grow and advance in my career. Many thanks!",
+  ],
+  role: "Scrum Master",
+  title: "Customized Scrum/Kanban Workshop",
+  type: "corporate",
+  whatYouLearn: {
+      __html: "<p>Is your team wanting to learn more about Scrum and Kanban principles in order to enhance your team and working environment? If so, these two workshops have been designed with you in mind. Choose one or both, depending on your team’s needs.</p><p>In our Kanban team workshops, your team will learn about what Kanban actually is and the best practices associated with using it. You will learn about how and when to use it in your team environment, and how you can best incorporate it in your team with other Agile practices you are currently using, or hope to use in future. Our trainers will also demonstrate how to create a Kanban board, and will show you many examples of how different teams use Kanban boards. By the end of this workshop, your team will be ready, able, and empowered to incorporate and use Kanban in your organization to maximize their success and delivery of products.</p><p>If Scrum training is what your team needs, then look no further. Our Scrum workshops are designed to equip your team with a deep understanding of the Scrum framework and be able to then apply Scrum principles in a working environment. During this one day course, your team will learn about Agile principles and the foundational values and roles that form the basis of Scrum. Trainers will provide instruction on Scrum theory, the Scrum framework, and the role of the Scrum Master within the Scrum environment. Your team will participate in workshops during the course, where they will practice applying the knowledge about Scrum into real world situations and work environments. At the end of the course, your team will understand the Scrum framework, be able to apply this knowledge through application, Scrum events, and Scrum roles. </p><p>Unlike any other training program, we offer the following bonuses:</p><ul><li>Free follow-up access to your course materials for one year.</li><li>25% discount on future course fees. Save on courses as you sail through the certification process.</li><li>Anytime availability: Your course are available over the Internet 7 days a week and 24 hours a day. Study at any day and time you want. Once you are ready, simply sign up to take the certification exam!</ul><p><b>Prerequisites:</b> None, but recommended that participants have some knowledge or understanding of general Agile principles.</p>",
+  },     
 }];
